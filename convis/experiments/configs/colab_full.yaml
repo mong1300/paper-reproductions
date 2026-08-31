@@ -1,0 +1,12 @@
+# Colab 실행용 - 실제 실험
+model_id: llava-hf/llava-1.5-7b-hf
+t2i_id: stabilityai/sd-turbo
+dtype: float16
+device: cuda
+load_in_4bit: true
+
+prompt: "Describe this image in detail."
+max_new_tokens: 64
+
+num_images: 100
+seed: 42
