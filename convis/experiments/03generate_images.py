@@ -1,6 +1,11 @@
 import sys
-import time
 from pathlib import Path
+
+HERE = Path(__file__).resolve().parent
+ROOT = HERE.parent
+sys.path.insert(0, str(ROOT))   # src/ 를 import 하려면 from src... 보다 먼저 와야 한다
+
+import time
 import torch
 from PIL import Image
 from diffusers import AutoPipelineForText2Image
@@ -12,9 +17,6 @@ import random
 
 DTYPES = {"float16": torch.float16, "float32": torch.float32, "bfloat16": torch.bfloat16}
 
-HERE = Path(__file__).resolve().parent
-ROOT = HERE.parent
-sys.path.insert(0, str(ROOT))
 out = ROOT / "outputs"
 out.mkdir(parents=True, exist_ok=True)
 img_dir = ROOT / "data/coco/images"

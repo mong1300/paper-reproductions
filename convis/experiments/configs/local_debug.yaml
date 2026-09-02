@@ -1,7 +1,4 @@
-# 로컬(MacBook) 디버깅용 - 작은 모델, 이미지 2장
-# 목적: 파이프라인이 도는지 확인. 성능은 보지 않는다.
-
-model_id: llava-hf/llava-interleave-qwen-0.5b-hf      # 작은 VLM (예: BLIP-base)
+model_id: llava-hf/llava-interleave-qwen-0.5b-hf
 t2i_id: stabilityai/sd-turbo
 dtype: float16
 device: mps

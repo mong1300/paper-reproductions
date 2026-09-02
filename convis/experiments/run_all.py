@@ -12,4 +12,4 @@ SCRIPTS = [
 for script in SCRIPTS:
     print(f"\n===== {script} =====", flush=True)
     if subprocess.run([sys.executable, f"experiments/{script}"]).returncode != 0:
-        sys.exit(f"{script} failed)
+        sys.exit(f"{script} failed")
