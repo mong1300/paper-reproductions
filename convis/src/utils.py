@@ -1,23 +1,33 @@
+import torch
 import yaml
 import random
+import numpy as np
+import json
+from pathlib import Path
+from pygments.formatters import img
+
 
 def load_config(path):
     with open(path) as f:
         return yaml.safe_load(f)
 
 
-def set_seed(seed):
-    """random / numpy / torch 시드를 한 번에 고정."""
-    random.seed(seed)
+def set_seed(model_seed, image_seed):
+    random.seed(image_seed)
+    np.random.seed(image_seed)
+    torch.manual_seed(model_seed)
 
 
-def save_jsonl(path, record):
-    """결과 한 건을 append. Colab 세션이 끊겨도 여기까지는 남는다."""
-    # TODO
-    raise NotImplementedError
+def sync(device):
+    if device == "cuda":
+        torch.cuda.synchronize()
+    elif device == "mps":
+        torch.mps.synchronize()
 
+def save_json(path, record):
+    with open(path, "w", encoding="utf-8") as f:
+        f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
-def load_done_ids(path):
-    """이미 처리된 id 집합. 이어서 실행할 때 건너뛰기용."""
-    # TODO
-    raise NotImplementedError
+def load_json(path):
+    with open(path, encoding="utf-8") as f:
+        return json.load(f)

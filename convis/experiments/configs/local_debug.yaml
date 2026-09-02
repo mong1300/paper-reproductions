@@ -3,11 +3,21 @@
 
 model_id: llava-hf/llava-interleave-qwen-0.5b-hf      # 작은 VLM (예: BLIP-base)
 t2i_id: stabilityai/sd-turbo
-dtype: float32
+dtype: float16
 device: mps
 
 prompt: "Describe this image in detail."
-max_new_tokens: 32
+caption_max_tokens: 256
+max_new_tokens: 64
 
 num_images: 2
-seed: 42
+image_seed: 42
+model_seed: 42
+
+caption_num: 2
+num_steps: 1
+
+method: convis
+alpha: 1
+lam: 0.1
+
