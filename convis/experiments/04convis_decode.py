@@ -36,7 +36,7 @@ def main():
     for c in captions:
         ori_img = Image.open(img_dir / c["file_name"])
         recons = []
-        for i in range(cfg['num_images']):
+        for i in range(cfg['caption_num']):
             img = Image.open(out / "coco" / f"{c['file_name'][:-4]}_{i}.png")
             recons.append(img)
 

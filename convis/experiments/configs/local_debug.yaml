@@ -6,15 +6,15 @@ t2i_id: stabilityai/sd-turbo
 dtype: float16
 device: mps
 
-prompt: "Describe this image in detail."
+prompt: "Please describe this image in detail."
 caption_max_tokens: 256
 max_new_tokens: 64
 
-num_images: 2
+num_images: 10
 image_seed: 42
 model_seed: 42
 
-caption_num: 2
+caption_num: 4
 num_steps: 1
 
 method: convis
