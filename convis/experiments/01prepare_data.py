@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -14,7 +15,7 @@ img_dir = ROOT / "data/coco/images"
 img_dir.mkdir(parents=True, exist_ok=True)
 
 def main():
-    cfg = load_config(HERE / "configs/local_debug.yaml")
+    cfg = load_config(HERE / "configs" / os.environ.get("CONVIS_CONFIG", "local_debug.yaml"))
     set_seed(model_seed=cfg["model_seed"], image_seed=cfg["image_seed"])
 
     coco = COCO(ROOT / "data/coco/instances_val2014.json")

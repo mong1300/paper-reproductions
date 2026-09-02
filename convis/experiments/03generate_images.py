@@ -1,3 +1,4 @@
+import os
 import sys
 from pathlib import Path
 
@@ -24,7 +25,7 @@ img_dir.mkdir(parents=True, exist_ok=True)
 # convis
 
 def main():
-    cfg = load_config(HERE / "configs/local_debug.yaml")
+    cfg = load_config(HERE / "configs" / os.environ.get("CONVIS_CONFIG", "local_debug.yaml"))
     set_seed(model_seed=cfg["model_seed"], image_seed=cfg["image_seed"])
     dtype = DTYPES[cfg["dtype"]]
     model_id = cfg["t2i_id"]

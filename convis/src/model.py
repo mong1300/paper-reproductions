@@ -1,10 +1,27 @@
-from xxlimited_35 import Null
-
 import torch
 from transformers import AutoProcessor, LlavaForConditionalGeneration
 
-def load_model(model_id, dtype=torch.float16, device="mps"):
-    model = LlavaForConditionalGeneration.from_pretrained(model_id, torch_dtype=dtype).to(device)
+def load_model(model_id, dtype=torch.float16, device="mps", load_in_4bit=False):
+    """VLM 과 processor 로딩.
+
+    load_in_4bit 은 CUDA 전용이다 (bitsandbytes). Colab T4 처럼 VRAM 이 좁은
+    환경에서 7B + T2I 를 함께 올리기 위해 쓴다. MPS 에서는 무시된다.
+    """
+    kwargs = {"torch_dtype": dtype}
+
+    if load_in_4bit and torch.cuda.is_available():
+        from transformers import BitsAndBytesConfig
+        kwargs["quantization_config"] = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_compute_dtype=dtype,
+            bnb_4bit_quant_type="nf4",
+        )
+        kwargs["device_map"] = "auto"      # 4bit 는 .to() 로 옮길 수 없다
+
+    model = LlavaForConditionalGeneration.from_pretrained(model_id, **kwargs)
+    if "device_map" not in kwargs:
+        model = model.to(device)
+
     processor = AutoProcessor.from_pretrained(model_id)
     return model, processor
 
