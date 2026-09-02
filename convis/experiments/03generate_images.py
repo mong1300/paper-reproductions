@@ -20,6 +20,7 @@ DTYPES = {"float16": torch.float16, "float32": torch.float32, "bfloat16": torch.
 
 out = ROOT / "outputs"
 out.mkdir(parents=True, exist_ok=True)
+(out / "coco").mkdir(parents=True, exist_ok=True)
 img_dir = ROOT / "data/coco/images"
 img_dir.mkdir(parents=True, exist_ok=True)
 # convis

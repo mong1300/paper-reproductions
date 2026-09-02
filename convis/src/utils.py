@@ -25,6 +25,7 @@ def sync(device):
         torch.mps.synchronize()
 
 def save_json(path, record):
+    Path(path).parent.mkdir(parents=True, exist_ok=True)
     with open(path, "w", encoding="utf-8") as f:
         f.write(json.dumps(record, ensure_ascii=False) + "\n")
 
