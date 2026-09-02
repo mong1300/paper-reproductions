@@ -3,7 +3,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-sys.path.insert(0, str(ROOT))   # src/ 를 import 하려면 from src... 보다 먼저 와야 한다
+sys.path.insert(0, str(ROOT))
 
 import json
 import subprocess
