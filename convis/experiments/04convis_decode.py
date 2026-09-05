@@ -6,15 +6,11 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT))
 
-import time
 import torch
 from PIL import Image
-from diffusers import AutoPipelineForText2Image
-from src.model import load_model, generate_caption, convis_decode
-from src.t2i import load_t2i, regenerate
-from src.model import load_model, generate_caption
-from src.utils import load_config, set_seed, sync, save_json, load_json
-import random
+from src.model import convis_decode
+from src.model import load_model
+from src.utils import load_config, set_seed, save_json, load_json
 
 DTYPES = {"float16": torch.float16, "float32": torch.float32, "bfloat16": torch.bfloat16}
 
@@ -36,7 +32,8 @@ def main():
     captions = load_json(out / "coco/captions.json")
 
     answers = []
-    for c in captions:
+    for i, c in enumerate(captions):
+        print(f"\nProcessing {i}th {c['file_name']}")
         ori_img = Image.open(img_dir / c["file_name"])
         recons = []
         for i in range(cfg['caption_num']):

@@ -7,7 +7,7 @@ prompt: "Please describe this image in detail."
 caption_max_tokens: 256
 max_new_tokens: 64
 
-num_images: 10
+num_images: 100
 image_seed: 42
 model_seed: 42
 

@@ -6,15 +6,10 @@ HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
 sys.path.insert(0, str(ROOT))
 
-import time
 import torch
 from PIL import Image
-from diffusers import AutoPipelineForText2Image
-from src.model import load_model, generate_caption, convis_decode
-from src.t2i import load_t2i, regenerate
 from src.model import load_model, generate_caption
 from src.utils import load_config, set_seed, sync, save_json, load_json
-import random
 
 DTYPES = {"float16": torch.float16, "float32": torch.float32, "bfloat16": torch.bfloat16}
 
@@ -37,7 +32,8 @@ def main():
                                      load_in_4bit=cfg.get("load_in_4bit", False))
 
     captions_out = []
-    for sample in samples:
+    for i, sample in enumerate(samples):
+        print(f"\nProcessing {i}th {sample['file_name']}")
         sample_file_name = sample["file_name"]
         sample_id = sample["id"]
         img = Image.open(img_dir / sample_file_name).convert("RGB")
