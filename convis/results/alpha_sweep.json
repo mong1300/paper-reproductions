@@ -1,0 +1,66 @@
+[
+  {
+    "alpha": -1.0,
+    "CHAIR_S": 14.0,
+    "CHAIR_I": 5.6,
+    "METEOR": 17.1,
+    "hallucinated": 16,
+    "objects_mentioned": 286
+  },
+  {
+    "alpha": -0.8,
+    "CHAIR_S": 16.0,
+    "CHAIR_I": 6.0,
+    "METEOR": 17.0,
+    "hallucinated": 18,
+    "objects_mentioned": 300
+  },
+  {
+    "alpha": -0.5,
+    "CHAIR_S": 19.0,
+    "CHAIR_I": 7.5,
+    "METEOR": 17.1,
+    "hallucinated": 22,
+    "objects_mentioned": 293
+  },
+  {
+    "alpha": -0.1,
+    "CHAIR_S": 17.0,
+    "CHAIR_I": 7.8,
+    "METEOR": 17.5,
+    "hallucinated": 24,
+    "objects_mentioned": 308
+  },
+  {
+    "alpha": 0.0,
+    "CHAIR_S": 19.0,
+    "CHAIR_I": 8.4,
+    "METEOR": 17.9,
+    "hallucinated": 25,
+    "objects_mentioned": 298
+  },
+  {
+    "alpha": 0.1,
+    "CHAIR_S": 17.0,
+    "CHAIR_I": 6.3,
+    "METEOR": 17.8,
+    "hallucinated": 19,
+    "objects_mentioned": 302
+  },
+  {
+    "alpha": 0.5,
+    "CHAIR_S": 14.0,
+    "CHAIR_I": 6.2,
+    "METEOR": 17.9,
+    "hallucinated": 19,
+    "objects_mentioned": 306
+  },
+  {
+    "alpha": 1.0,
+    "CHAIR_S": 16.0,
+    "CHAIR_I": 6.8,
+    "METEOR": 18.2,
+    "hallucinated": 21,
+    "objects_mentioned": 309
+  }
+]

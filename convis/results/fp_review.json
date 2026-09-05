@@ -1,0 +1,3067 @@
+[
+ {
+  "alpha": "-1",
+  "image_id": 245447,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a lively scene in a restaurant. The main focus is a table, adorned with a vibrant yellow tablecloth and a white table runner. The table is set with a white plate, a white cup, and a white bowl, all ready for a meal. \n\nOn the table, there are two individuals,",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a white plate, a white cup, and a white bowl",
+  "reason": "식당 테이블에 컵/휴대폰/냅킨만 보이고 그릇은 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, seated on a bed adorned with a white blanket. She is engrossed in a laptop, her fingers moving across the keyboard. The laptop, open and facing towards the left side of the frame, is the only object in the image. \n\nThe",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "seated on a bed adorned with a white blanket",
+  "reason": "실제로는 쿠션이 있는 소파. GT의 couch와 시각적으로 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 320180,
+  "flagged": "keyboard",
+  "surface": "keyboard",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, seated on a bed adorned with a white blanket. She is engrossed in a laptop, her fingers moving across the keyboard. The laptop, open and facing towards the left side of the frame, is the only object in the image. \n\nThe",
+  "category": "A5",
+  "verdict": "false_positive",
+  "evidence": "her fingers moving across the keyboard",
+  "reason": "GT의 laptop 부품인 노트북 자판. 별도 키보드 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 356424,
+  "flagged": "sandwich",
+  "surface": "sandwich",
+  "gt_objects": [
+   "bottle",
+   "car",
+   "chair",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the image, a man is seated at a wooden table, engrossed in a conversation with someone off-camera. He is dressed in a black sweater, adding a touch of contrast to the scene. The table is adorned with a white plate holding a variety of food items, including a sandwich and a salad. A",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "including a sandwich and a salad",
+  "reason": "접시에 빵 위 오픈샌드위치형 요리가 있어 오인/미어노테이션 구분 곤란. 샐러드는 없음.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 414236,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "sandwich"
+  ],
+  "caption": "The image presents a delightful scene of a meal. At the center of the frame is a white plate, which holds a sandwich and a side dish. The sandwich, with its golden-brown crust, is generously filled with a vibrant mix of ingredients. The side dish, a white bowl, is filled with a creamy sauce",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "The side dish, a white bowl",
+  "reason": "포장지 위 샌드위치·커피컵·과자봉지뿐, 그릇 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 381213,
+  "flagged": "tie",
+  "surface": "bow",
+  "gt_objects": [
+   "zebra"
+  ],
+  "caption": "In the heart of a verdant field, a trio of zebras, their black and white stripes contrasting sharply with the lush greenery, are captured in a moment of tranquility. The zebra on the left, its head lowered in a relaxed bow, faces the camera, its gaze meeting ours. Its companion on",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "its head lowered in a relaxed bow",
+  "reason": "'bow'는 고개 숙임을 뜻하는 명사이며 넥타이(bow tie)가 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 489743,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "bed",
+   "cat",
+   "couch",
+   "teddy bear"
+  ],
+  "caption": "In the image, a gray and white striped cat is the main subject. The cat is comfortably nestled on a bed covered with a white blanket. The blanket is adorned with a pattern of orange and white stripes, adding a pop of color to the scene. The cat's head is resting on the blanket, its eyes closed",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a pattern of orange and white stripes",
+  "reason": "담요 무늬의 색상 형용사. 과일 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 312103,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "car",
+   "handbag",
+   "hot dog",
+   "person",
+   "pizza",
+   "sandwich",
+   "truck"
+  ],
+  "caption": "In the heart of a bustling street, a man in a vibrant red tank top and matching shorts is the center of attention. He's holding a large, golden hot dog in his right hand, which is the main focus of the image. His left hand is holding a large, white bowl filled with a delicious-looking dish",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "holding a large, white bowl filled",
+  "reason": "남자는 핫도그만 들고 있으며 그릇 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 439854,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "bicycle",
+   "person",
+   "skateboard"
+  ],
+  "caption": "The image captures a vibrant scene at a beach during sunset. The sky, painted in hues of orange and pink, is dotted with clouds. The sun, casting a warm glow on the scene, is positioned in the top left corner of the image. \n\nIn the foreground, a person is seen riding a skateboard, their",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "painted in hues of orange and pink",
+  "reason": "노을 하늘 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a vibrant scene of a flower shop. Dominating the frame is a large white bucket, its surface adorned with a variety of flowers in shades of yellow, orange, and pink. The bucket is positioned on a wooden table, which is set against a backdrop of a white wall. The flowers, each unique",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "shades of yellow, orange, and pink",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 208808,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "person",
+   "skateboard"
+  ],
+  "caption": "In the image, a young man is captured in the midst of a thrilling skateboarding trick. He's dressed in a vibrant orange jacket and blue jeans, adding a pop of color to the scene. His skateboard, a striking combination of black and white, is tilted to the side, ready to spring into action at any",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "dressed in a vibrant orange jacket",
+  "reason": "재킷 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 292188,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "The image captures a dynamic scene of a man and his dog on a John Deere 4x4. The man, dressed in a blue shirt and a blue helmet, is in the driver's seat, steering the John Deere 4x4. The dog, also wearing a blue shirt and a blue helmet",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "is in the driver's seat",
+  "reason": "ATV 운전석. 동의어 사전이 seat를 chair로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 542782,
+  "flagged": "chair",
+  "surface": "chair",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "The image captures a vibrant scene of winter sports. At the center of the frame, a group of people are enjoying a day of skiing. They are seated on a chair, their bodies angled towards the right side of the image, as if they are in the midst of a thrilling descent. \n\nThe chair they are sitting",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "They are seated on a chair",
+  "reason": "곤돌라/리프트 좌석을 chair로 매핑. 가구 의자 아님.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 542782,
+  "flagged": "chair",
+  "surface": "chair",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "The image captures a vibrant scene of winter sports. At the center of the frame, a group of people are enjoying a day of skiing. They are seated on a chair, their bodies angled towards the right side of the image, as if they are in the midst of a thrilling descent. \n\nThe chair they are sitting",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "They are seated on a chair",
+  "reason": "곤돌라/리프트 좌석을 chair로 매핑. 가구 의자 아님.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 418219,
+  "flagged": "backpack",
+  "surface": "backpack",
+  "gt_objects": [
+   "bench",
+   "car",
+   "person"
+  ],
+  "caption": "In the image, a man is seen walking down a sidewalk in a city. He is dressed in a red jacket and blue jeans, and is carrying a black backpack. The man is facing the camera, and his gaze is directed towards the left side of the image. \n\nThe sidewalk on which he is walking is lined",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "is carrying a black backpack",
+  "reason": "남자는 뒷모습으로 걷고 있으며 배낭을 메지 않음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-1",
+  "image_id": 352234,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "fork",
+   "person",
+   "pizza"
+  ],
+  "caption": "The image presents a close-up view of a pizza, resting on a white plate. The pizza is generously topped with a variety of toppings, including red sauce, green herbs, and white cheese. The pizza is cut in half, revealing the melted cheese and the toppings inside. The plate is placed on a table, and",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "The plate is placed on a table",
+  "reason": "우상단에 매트가 깔린 탁자 모서리가 보이나 GT에 미표기.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 245447,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a lively scene in a restaurant. The main focus is a table, adorned with a vibrant yellow tablecloth and a white table runner. The table is set with a variety of items, including a blue cup, a white plate, and a glass of orange juice. \n\nOn the table, there are two",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "a glass of orange juice",
+  "reason": "오렌지 주스를 뜻하며 과일 오렌지를 단언하지 않음. 실제 주황색 음료 잔 존재.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, seated on a bed with a blue blanket. She is engrossed in a laptop, which is open and facing towards the left side of the image. The laptop screen is displaying a white image, which appears to be a book cover. The woman",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "seated on a bed with a blue blanket",
+  "reason": "실제는 소파. GT couch와 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 320180,
+  "flagged": "book",
+  "surface": "book",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, seated on a bed with a blue blanket. She is engrossed in a laptop, which is open and facing towards the left side of the image. The laptop screen is displaying a white image, which appears to be a book cover. The woman",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "appears to be a book cover",
+  "reason": "노트북 화면에 표시된 이미지를 실물 책으로 집계.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 356424,
+  "flagged": "sandwich",
+  "surface": "sandwich",
+  "gt_objects": [
+   "bottle",
+   "car",
+   "chair",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the image, a man is seated at a wooden table, engrossed in a conversation with someone off-camera. He is dressed in a black sweater, adding a touch of contrast to the scene. The table is adorned with a white plate holding a variety of food items, including a sandwich and a salad. A",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "including a sandwich and a salad",
+  "reason": "접시에 빵 위 오픈샌드위치형 요리가 있어 오인/미어노테이션 구분 곤란. 샐러드는 없음.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 308555,
+  "flagged": "refrigerator",
+  "surface": "refrigerator",
+  "gt_objects": [
+   "oven",
+   "pizza",
+   "toaster"
+  ],
+  "caption": "The image captures a scene of a bustling kitchen, bathed in the soft glow of a kitchen light. Dominating the center of the image is a large stainless steel oven, its surface gleaming under the light. The oven is not alone; it's accompanied by a large metal refrigerator, its surface also gleaming.",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "accompanied by a large metal refrigerator",
+  "reason": "피자 가게의 스테인리스 오븐 2단. GT oven과 혼동 가능.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 85543,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "donut"
+  ],
+  "caption": "The image presents a delightful assortment of doughnuts, neatly arranged in a box. The doughnuts are a vibrant mix of colors, with the majority being shades of pink, white, and orange. Each doughnut is unique, with some having a hole in the center, while others have a ring around the rim. The",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "shades of pink, white, and orange",
+  "reason": "도넛 글레이즈 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 489743,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "bed",
+   "cat",
+   "couch",
+   "teddy bear"
+  ],
+  "caption": "In the center of the image, a gray and white striped cat is the main subject. The cat is comfortably nestled on a brown and white blanket, which is draped over a wooden table. The cat's head is turned to the left, giving a slight smile to the camera. \n\nThe cat's body is relaxed,",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "draped over a wooden table",
+  "reason": "고양이는 소파/침구 위에 있고 탁자는 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 570107,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "cat",
+   "chair",
+   "person"
+  ],
+  "caption": "In the image, a man is seen in a room with a green wall and a white ceiling. He is dressed in a striped shirt and is holding a black backpack. The backpack is adorned with a white and orange cat, adding a touch of whimsy to the scene. The man is positioned in front of a green",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "adorned with a white and orange cat",
+  "reason": "고양이 털 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 10928,
+  "flagged": "bear",
+  "surface": "bear",
+  "gt_objects": [
+   "traffic light"
+  ],
+  "caption": "The image captures a bustling city street, bathed in the soft glow of daylight. The street, lined with towering buildings, is a hive of activity. A blue and white street sign, a common sight in many cities, stands prominently on the left side of the image. It bears the words \"Madison Ave\"",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "It bears the words \"Madison Ave\"",
+  "reason": "동사 bear의 3인칭 형태이며 곰이 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 462756,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "bicycle",
+   "car",
+   "motorcycle",
+   "truck"
+  ],
+  "caption": "The image captures a serene scene of a small, rustic farm. Dominating the foreground is a **gray ** motorcycle, parked on a **dirt road**. The motorcycle, with its **black seat and handlebars**, is facing towards the right side of the image, as if ready to embark on a journey.",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "its black seat and handlebars",
+  "reason": "오토바이 안장. seat를 chair로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 439854,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "bicycle",
+   "person",
+   "skateboard"
+  ],
+  "caption": "The image captures a vibrant scene at a beach during sunset. The sky, painted in hues of orange and pink, is dotted with clouds. The sun, casting a warm glow on the scene, is positioned in the top left corner of the image. \n\nIn the foreground, a person is seen riding a skateboard, their",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "painted in hues of orange and pink",
+  "reason": "노을 하늘 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a vibrant scene of a flower shop. Dominating the foreground is a large white bucket, its surface adorned with a variety of flowers in shades of yellow, orange, and red. The bucket is positioned on a wooden table, which is set against a backdrop of a window adorned with white curtains. The window",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "shades of yellow, orange, and red",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 208808,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "person",
+   "skateboard"
+  ],
+  "caption": "In the heart of a bustling skatepark, a young man is caught in a moment of pure exhilaration. He's clad in a vibrant orange jacket, which contrasts beautifully with his blue jeans and black shoes. His skateboard, a striking combination of white and black, is in mid-air, defying gravity as he so",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "clad in a vibrant orange jacket",
+  "reason": "재킷 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 292188,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "The image captures a dynamic scene of a man and his dog on a John Deere 4x4. The man, dressed in a blue shirt and a blue helmet, is in the driver's seat of the John Deere 4x4. The dog, a black and white mix, is perched on",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "is in the driver's seat",
+  "reason": "ATV 운전석. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 550643,
+  "flagged": "carrot",
+  "surface": "carrot",
+  "gt_objects": [
+   "bowl",
+   "broccoli",
+   "cup",
+   "oven",
+   "spoon"
+  ],
+  "caption": "The image captures a moment of culinary preparation. A stainless steel pot, with a handle on the left side, is filled with a vibrant green salad. The salad is a mix of green and yellow vegetables, including broccoli and carrots. The pot is placed on a white countertop, which contrasts with the green of the salad",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "including broccoli and carrots",
+  "reason": "냄비에는 파스타와 브로콜리만 있고 당근 없음. 노란색은 면.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 542782,
+  "flagged": "chair",
+  "surface": "chair",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "The image captures a moment of joy and camaraderie on a snowy mountain. At the center of the frame, a group of people are enjoying a day of winter sports. They are seated on a chair, their bodies relaxed and their heads bowed in concentration. The chair they're sitting on is adorned with a vibrant red",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "They are seated on a chair",
+  "reason": "리프트 좌석. 가구 의자 아님.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 542782,
+  "flagged": "chair",
+  "surface": "chair",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "The image captures a moment of joy and camaraderie on a snowy mountain. At the center of the frame, a group of people are enjoying a day of winter sports. They are seated on a chair, their bodies relaxed and their heads bowed in concentration. The chair they're sitting on is adorned with a vibrant red",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "They are seated on a chair",
+  "reason": "리프트 좌석. 가구 의자 아님.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.8",
+  "image_id": 418219,
+  "flagged": "backpack",
+  "surface": "backpack",
+  "gt_objects": [
+   "bench",
+   "car",
+   "person"
+  ],
+  "caption": "In the image, a man is seen walking down a sidewalk in a city. He is dressed in a red jacket and blue jeans, and is carrying a black backpack. The man is facing the camera, and his path is not clear from the image. \n\nThe sidewalk he is walking on is lined with trees and buildings",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "is carrying a black backpack",
+  "reason": "뒷모습 보행자로 배낭 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 378098,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "broccoli",
+   "carrot",
+   "dining table"
+  ],
+  "caption": "The image presents a close-up view of a plate of food, which is a vibrant mix of colors and textures. The plate is adorned with a variety of vegetables, including a large piece of broccoli and a small portion of carrots. The broccoli is a rich green, while the carrots are a bright orange. The plate is",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "the carrots are a bright orange",
+  "reason": "당근 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 245447,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a lively scene in a restaurant. At the heart of the image is a table, draped in a pristine white tablecloth. The table is adorned with a vibrant orange tablecloth, adding a pop of color to the scene.\n\nThree individuals are seated at the table, engrossed in their own worlds.",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a vibrant orange tablecloth",
+  "reason": "식탁보 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, seated on a bed. She is dressed in a patterned dress, adding a touch of color to the otherwise monochrome setting. In her hands, she holds a laptop, suggesting she might be working or browsing the internet.\n\nThe laptop is open,",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "seated on a bed",
+  "reason": "실제는 소파. GT couch와 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 308555,
+  "flagged": "refrigerator",
+  "surface": "refrigerator",
+  "gt_objects": [
+   "oven",
+   "pizza",
+   "toaster"
+  ],
+  "caption": "The image captures a scene of a bustling kitchen, bathed in the soft glow of a kitchen light. Dominating the center of the image is a large stainless steel oven, its surface gleaming under the light. The oven is not alone; it's accompanied by a large metal refrigerator, its surface also gleaming.",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "accompanied by a large metal refrigerator",
+  "reason": "피자 가게의 스테인리스 오븐 2단. GT oven과 혼동 가능.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 51028,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "chair",
+   "keyboard",
+   "laptop",
+   "mouse",
+   "tv"
+  ],
+  "caption": "The image captures a vibrant scene in a room that is both functional and aesthetically pleasing. Dominating the center of the room is a large, colorful rug that is a riot of hues. The rug is a riot of red, orange, yellow, green, blue, and purple, each color contributing to a lively",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "red, orange, yellow, green, blue, and purple",
+  "reason": "러그 색상 나열.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 12192,
+  "flagged": "frisbee",
+  "surface": "frisbee",
+  "gt_objects": [
+   "person",
+   "sports ball",
+   "tennis racket"
+  ],
+  "caption": "In the image, a young boy is the main subject, standing on a sandy beach. He is dressed in a white shirt and blue shorts, and is holding a yellow frisbee in his right hand. The boy is facing away from the camera, giving us a clear view of his actions. He is looking up",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "holding a yellow frisbee in his right hand",
+  "reason": "실제는 노란 라켓 헤드. GT tennis racket과 원반형 실루엣이 혼동 가능.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a small, cluttered room. Dominating the center of the room is a desk, its surface adorned with various items. A black and white clock, a radio, and a television are all present on the desk, suggesting a space used for work or relaxation.\n\nTo the left of the",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "a radio, and a television are all present",
+  "reason": "무선 장비 랙/콘솔 캐비닛이 흑백 사진에서 TV로 혼동될 수 있음. 실제 TV 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "The image captures a moment of tranquility in a natural setting. At the center of the frame, a group of people are gathered around a table, their attention focused on a small black container. The container is filled with a variety of items, including a small bowl of food and a few pieces of bread. \n\nThe",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a group of people are gathered around a table",
+  "reason": "산 위 바위에 음식을 늘어놓은 장면으로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 134133,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "The image captures a moment of tranquility in a natural setting. At the center of the frame, a group of people are gathered around a table, their attention focused on a small black container. The container is filled with a variety of items, including a small bowl of food and a few pieces of bread. \n\nThe",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "including a small bowl of food",
+  "reason": "하단의 검은 원형 용기/뚜껑이 그릇으로 보일 여지가 있어 판단 곤란.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 134133,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "The image captures a moment of tranquility in a natural setting. At the center of the frame, a group of people are gathered around a table, their attention focused on a small black container. The container is filled with a variety of items, including a small bowl of food and a few pieces of bread. \n\nThe",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "including a small bowl of food",
+  "reason": "하단의 검은 원형 용기/뚜껑이 그릇으로 보일 여지가 있어 판단 곤란.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 134133,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "The image captures a moment of tranquility in a natural setting. At the center of the frame, a group of people are gathered around a table, their attention focused on a small black container. The container is filled with a variety of items, including a small bowl of food and a few pieces of bread. \n\nThe",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "including a small bowl of food",
+  "reason": "하단의 검은 원형 용기/뚜껑이 그릇으로 보일 여지가 있어 판단 곤란.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 462643,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "person"
+  ],
+  "caption": "In the image, a hand is seen holding a smartphone with a black screen. The screen is partially visible, revealing a colorful pattern of white and orange. The phone is placed on a wooden surface, which has a pattern of black and white. The background of the image is blurred, but it appears to be a dark",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a colorful pattern of white and orange",
+  "reason": "화면 패턴 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 570107,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "cat",
+   "chair",
+   "person"
+  ],
+  "caption": "In the image, a man is seen in a room with a green wall and a white ceiling. He is dressed in a striped shirt and is holding a black backpack. The backpack is adorned with a white and orange cat, adding a touch of whimsy to the scene. The man is positioned in front of a green",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "adorned with a white and orange cat",
+  "reason": "고양이 털 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 10928,
+  "flagged": "bear",
+  "surface": "bear",
+  "gt_objects": [
+   "traffic light"
+  ],
+  "caption": "The image captures a bustling city street, bathed in the soft glow of daylight. The street, lined with towering buildings, is a hive of activity. A blue and white street sign, a beacon for those navigating the urban landscape, stands tall on the right side of the image. It bears the inscription \"Madison",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "It bears the inscription \"Madison",
+  "reason": "동사 bear이며 곰이 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 462756,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "bicycle",
+   "car",
+   "motorcycle",
+   "truck"
+  ],
+  "caption": "The image captures a serene scene in a rural setting. Dominating the frame is a **gray ** motorcycle, parked on a **dirt road**. The motorcycle, with its **black seat and handlebars**, is facing towards the right side of the image. \n\nThe road on which the motorcycle is parked is **",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "its black seat and handlebars",
+  "reason": "오토바이 안장. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 268390,
+  "flagged": "bowl",
+  "surface": "bowl",
+  "gt_objects": [
+   "cup",
+   "dining table",
+   "remote",
+   "sink"
+  ],
+  "caption": "The image captures a scene of a kitchen, dominated by a white countertop that serves as the stage for various objects. Dominating the scene is a white coffee maker, its black handle and lid contrasting with the countertop. The coffee maker is nestled next to a white bowl, its contents hidden from view. \n\nTo",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "nestled next to a white bowl",
+  "reason": "푸드프로세서의 투명 볼·흰 부품 등 그릇형 물체가 있어 판단 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 405534,
+  "flagged": "bench",
+  "surface": "bench",
+  "gt_objects": [
+   "person",
+   "tennis racket"
+  ],
+  "caption": "In the heart of a vibrant tennis court, a lively scene unfolds. Two young boys, their skin a bright shade of red, are the main focus of the image. They are seated on a bench, their bodies relaxed and at ease. Their attire is casual, with one boy sporting a white shirt and the other sporting",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "They are seated on a bench",
+  "reason": "실제로는 낮은 콘크리트 턱. 벤치와 시각적 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 439854,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "bicycle",
+   "person",
+   "skateboard"
+  ],
+  "caption": "The image captures a vibrant scene at a beach during sunset. The sky, painted in hues of orange and pink, is dotted with a few clouds. The sun, casting a warm glow on the scene, is positioned directly above the horizon line. \n\nIn the foreground, a group of people are enjoying the beach. They",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "painted in hues of orange and pink",
+  "reason": "하늘 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene scene of a flower shop. Dominating the foreground is a white bucket, its surface adorned with a vibrant array of flowers. The flowers, in hues of yellow, orange, and red, are arranged in a pleasing pattern, creating a sense of harmony and balance.\n\nThe bucket is not alone in",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "in hues of yellow, orange, and red",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 208808,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "person",
+   "skateboard"
+  ],
+  "caption": "In the heart of a bustling skatepark, a young man is caught in a moment of pure exhilaration. He's dressed in a vibrant orange jacket and blue jeans, his body language suggesting a sense of freedom and adventure. His skateboard, a striking contrast of black and white, is in mid-air, its wheels spinning",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "dressed in a vibrant orange jacket",
+  "reason": "재킷 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 292188,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "In the heart of a verdant landscape, a man and his faithful canine companion are captured in a moment of pure joy. The man, dressed in a vibrant green shirt and blue jeans, is seated in the driver's seat of a John Deere 4x4. His gaze is directed towards the left side of",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "seated in the driver's seat",
+  "reason": "ATV 운전석. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.5",
+  "image_id": 500703,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "handbag",
+   "person",
+   "train"
+  ],
+  "caption": "The image captures a bustling scene at a train station. The station is a hive of activity, with multiple trains and cars moving along the tracks. The trains, painted in a variety of colors, are a mix of white, blue, and red, adding a splash of color to the scene. \n\nThe station itself is",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "multiple trains and cars moving along the tracks",
+  "reason": "선로 위 'car'는 객차를 뜻함. GT train과 동일 대상.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 245447,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the heart of a bustling restaurant, a group of people are gathered around a table, engrossed in their own worlds. The table, a hub of activity, is adorned with a vibrant orange coffee cup, a refreshing sip for the diners. A silver mug sits next to it, perhaps filled with a warm",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a vibrant orange coffee cup",
+  "reason": "컵 색상 형용사. 실제 주황색 보온병.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 325992,
+  "flagged": "keyboard",
+  "surface": "keyboard",
+  "gt_objects": [
+   "book",
+   "bottle",
+   "cell phone",
+   "dining table",
+   "laptop",
+   "tv"
+  ],
+  "caption": "The image captures a scene of a desk, bathed in the soft glow of a lamp. The desk, a canvas of work, is home to a laptop, its screen blank and its keyboard partially obscured by a black screen protector. The laptop, a symbol of productivity, is nestled among other items, each contributing to",
+  "category": "A5",
+  "verdict": "false_positive",
+  "evidence": "its keyboard partially obscured",
+  "reason": "GT의 laptop 부품인 노트북 자판.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 525211,
+  "flagged": "bowl",
+  "surface": "container",
+  "gt_objects": [
+   "bottle",
+   "donut",
+   "person"
+  ],
+  "caption": "The image is a collage of three photographs, each depicting a different step in the process of making a doughnut. \n\nIn the top left photo, a hand is seen holding a doughnut, which is covered in powdered sugar. The hand is holding a small white container, presumably containing a sugar substitute or a sugar substitute",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "holding a small white container",
+  "reason": "container를 bowl로 과확장. 그릇 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the central figure, comfortably seated on a bed. She is dressed in a dress that is adorned with a pattern of white and black dots. In her hands, she holds a laptop, which is open and turned on. The laptop is positioned on the left side of the",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "comfortably seated on a bed",
+  "reason": "실제는 소파. GT couch와 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 85543,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "donut"
+  ],
+  "caption": "The image captures a delightful scene of six donuts, each with its own unique flavor and shape, neatly arranged in a box. The box, placed on a table, is a vibrant green, providing a stark contrast to the donuts' colors.\n\nStarting from the left, there's a donut with a chocolate gl",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "The box, placed on a table",
+  "reason": "프레임이 도넛 상자 내부로 꽉 차 있어 탁자가 화면에 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of a vintage television set. The television, a relic of a bygone era, stands tall on a wooden stand, its screen blank. It's positioned in the center of the room, drawing the viewer's attention.\n\nTo the left of",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "the soft glow of a vintage television set",
+  "reason": "무선 장비 랙/콘솔이 TV로 혼동될 수 있음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of a vintage television set. The television, a relic of a bygone era, stands tall on a wooden stand, its screen blank. It's positioned in the center of the room, drawing the viewer's attention.\n\nTo the left of",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "the soft glow of a vintage television set",
+  "reason": "무선 장비 랙/콘솔이 TV로 혼동될 수 있음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 78194,
+  "flagged": "dog",
+  "surface": "dog",
+  "gt_objects": [
+   "couch",
+   "person",
+   "toothbrush"
+  ],
+  "caption": "In the image, a young child is the main subject, comfortably seated on a white couch. The child is dressed in a blue shirt with a white dog graphic on the front, and they are holding a green toothbrush in their right hand. The child's eyes are closed, suggesting a moment of rest or perhaps a",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "a blue shirt with a white dog graphic",
+  "reason": "셔츠에 프린트된 그림이며 실물 개 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a meal that's in the midst of preparation. The table, a canvas of white, is adorned with a variety of food items and condiments, each one a testament to the culinary artistry that",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a group of people are gathered around a table",
+  "reason": "바위 위 야외 식사 장면으로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a meal that's in the midst of preparation. The table, a canvas of white, is adorned with a variety of food items and condiments, each one a testament to the culinary artistry that",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a group of people are gathered around a table",
+  "reason": "바위 위 야외 식사 장면으로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 462643,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "person"
+  ],
+  "caption": "In the image, a hand is holding a smartphone case, which is open and revealing the internal components. The phone case is predominantly black with orange accents. The camera module, which is the main component of the phone case, is located in the center of the case. The camera module is black and has a red lens",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "predominantly black with orange accents",
+  "reason": "케이스 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, positioned to the left of the fork knife, is a vibrant green color, while the fork knife, on the right, is a stark black. The fork",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "실물은 포크·스푼·톱니 칼날이 결합된 스포크로 칼날부가 존재하나 GT 미표기. 캡션은 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, positioned to the left of the fork knife, is a vibrant green color, while the fork knife, on the right, is a stark black. The fork",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "실물은 포크·스푼·톱니 칼날이 결합된 스포크로 칼날부가 존재하나 GT 미표기. 캡션은 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, positioned to the left of the fork knife, is a vibrant green color, while the fork knife, on the right, is a stark black. The fork",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "실물은 포크·스푼·톱니 칼날이 결합된 스포크로 칼날부가 존재하나 GT 미표기. 캡션은 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, positioned to the left of the fork knife, is a vibrant green color, while the fork knife, on the right, is a stark black. The fork",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "실물은 포크·스푼·톱니 칼날이 결합된 스포크로 칼날부가 존재하나 GT 미표기. 캡션은 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 405534,
+  "flagged": "sports ball",
+  "surface": "ball",
+  "gt_objects": [
+   "person",
+   "tennis racket"
+  ],
+  "caption": "In the heart of a vibrant park, a young boy and a girl are engrossed in a game of tennis. The boy, clad in a white shirt and green shorts, is holding a tennis racket, ready to strike the ball. His gaze is fixed on the ball, perhaps waiting for the perfect shot.\n\nBes",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "ready to strike the ball",
+  "reason": "두 소년은 턱에 앉아 있고 공은 화면에 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 405534,
+  "flagged": "sports ball",
+  "surface": "ball",
+  "gt_objects": [
+   "person",
+   "tennis racket"
+  ],
+  "caption": "In the heart of a vibrant park, a young boy and a girl are engrossed in a game of tennis. The boy, clad in a white shirt and green shorts, is holding a tennis racket, ready to strike the ball. His gaze is fixed on the ball, perhaps waiting for the perfect shot.\n\nBes",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "ready to strike the ball",
+  "reason": "두 소년은 턱에 앉아 있고 공은 화면에 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 38438,
+  "flagged": "sports ball",
+  "surface": "ball",
+  "gt_objects": [
+   "cat",
+   "handbag"
+  ],
+  "caption": "In the center of the image, a Siamese cat is the star of the scene. The cat, with its fur as white as snow, is lying on a vibrant red carpet. It's curled up in a ball, its body stretched out in a relaxed manner. \n\nOn the floor next to the cat,",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "curled up in a ball",
+  "reason": "'공처럼 웅크린'이라는 관용 표현이며 실물 공 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 439854,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "bicycle",
+   "person",
+   "skateboard"
+  ],
+  "caption": "The image captures a vibrant scene at a beach during sunset. The sky, painted in hues of orange and pink, is dotted with a few clouds. The sun, positioned in the top left corner of the image, casts a warm glow on the scene below.\n\nIn the foreground, a group of people are enjoying the beach",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "painted in hues of orange and pink",
+  "reason": "하늘 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene scene in a flower shop. Dominating the foreground is a white bucket, its surface adorned with a vibrant array of flowers. The flowers, a mix of yellow, orange, and red, are arranged in a pleasing pattern, their colors popping against the white bucket. \n\nIn the background, two",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a mix of yellow, orange, and red",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 292188,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "In the heart of a verdant field, a John Deere 4x4 is captured in motion, moving from the left to the right of the frame. The vehicle, a striking combination of green and black, is equipped with a sturdy black bed and a sturdy black trailer. A black seat is positioned on the",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "equipped with a sturdy black bed",
+  "reason": "ATV 적재함(bed)이며 침대 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 292188,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "In the heart of a verdant field, a John Deere 4x4 is captured in motion, moving from the left to the right of the frame. The vehicle, a striking combination of green and black, is equipped with a sturdy black bed and a sturdy black trailer. A black seat is positioned on the",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "A black seat is positioned on the",
+  "reason": "ATV 좌석. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 536158,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "boat",
+   "person"
+  ],
+  "caption": "In the image, a young man is immersed in the exhilarating world of kayaking. He's donned in a vibrant red and blue life jacket, which contrasts beautifully with the orange kayak he's riding. His white helmet, a symbol of safety, is securely fastened to his head. The kayak, a striking",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "contrasts beautifully with the orange kayak",
+  "reason": "카약 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "-0.1",
+  "image_id": 426852,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "vase"
+  ],
+  "caption": "The image captures a serene garden scene, bathed in the soft glow of natural light. Dominating the foreground is a large blue vase, its surface adorned with a pattern of black and white stripes. The vase is positioned on a bed of dark green moss, adding a touch of nature's green to the scene.\n\nIn",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "positioned on a bed of dark green moss",
+  "reason": "'이끼 층'을 뜻하는 bed이며 침대 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 245447,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the heart of a bustling restaurant, a group of people are gathered around a table, engrossed in their own worlds. The table, a hub of activity, is adorned with a vibrant orange coffee cup, a refreshing sip for the diners. A silver thermos, filled with a warm beverage, sits next",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a vibrant orange coffee cup",
+  "reason": "컵 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 325992,
+  "flagged": "keyboard",
+  "surface": "keyboard",
+  "gt_objects": [
+   "book",
+   "bottle",
+   "cell phone",
+   "dining table",
+   "laptop",
+   "tv"
+  ],
+  "caption": "The image captures a scene of a desk, bathed in the soft glow of a lamp. The desk, a canvas of work, is home to a laptop, its screen blank and its keyboard partially obscured by a black screen protector. The laptop, a symbol of productivity, is nestled among other items, each contributing to",
+  "category": "A5",
+  "verdict": "false_positive",
+  "evidence": "its keyboard partially obscured",
+  "reason": "GT의 laptop 부품인 노트북 자판.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 525211,
+  "flagged": "bowl",
+  "surface": "container",
+  "gt_objects": [
+   "bottle",
+   "donut",
+   "person"
+  ],
+  "caption": "The image is a collage of three photographs, each depicting a different step in the process of making a doughnut. \n\nIn the top left photo, a hand is seen holding a doughnut, which is covered in powdered sugar. The hand is holding a small white container, presumably containing a sugar substitute or a sugar substitute",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "holding a small white container",
+  "reason": "container를 bowl로 과확장. 그릇 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the main subject. She is comfortably seated on a bed, her legs crossed in a relaxed manner. Her body is angled towards the right side of the image, suggesting she might be in a relaxed state. \n\nIn her hands, she holds a laptop, which is open",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "comfortably seated on a bed",
+  "reason": "실제는 소파. GT couch와 구분 곤란.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 542423,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "backpack",
+   "bench",
+   "car",
+   "handbag",
+   "person"
+  ],
+  "caption": "In the image, a solitary figure is seated on a wooden bench, their back to the camera. The bench, positioned in the center of the image, is made of metal and has a wooden seat. The bench is situated on a grassy field, which is dotted with trees and bushes. The sky above is a",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "The bench ... has a wooden seat",
+  "reason": "GT bench의 좌판. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 85543,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "donut"
+  ],
+  "caption": "The image captures a delightful scene of six donuts, each with its own unique flavor and shape, neatly arranged in a box. The box, placed on a table, is filled with these sweet treats, creating a visually appealing display.\n\nStarting from the top left, there's a donut with a chocolate glaze,",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "The box, placed on a table",
+  "reason": "프레임에 탁자가 보이지 않음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of a vintage television set. The television, a relic of a time long past, stands tall against the backdrop of a window draped with white curtains. The room is a study in contrasts - the black and white tones of the television set contrast",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "the soft glow of a vintage television set",
+  "reason": "무선 장비 콘솔이 TV로 혼동될 수 있음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of a vintage television set. The television, a relic of a time long past, stands tall against the backdrop of a window draped with white curtains. The room is a study in contrasts - the black and white tones of the television set contrast",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "the soft glow of a vintage television set",
+  "reason": "무선 장비 콘솔이 TV로 혼동될 수 있음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of a vintage television set. The television, a relic of a time long past, stands tall against the backdrop of a window draped with white curtains. The room is a study in contrasts - the black and white tones of the television set contrast",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "the soft glow of a vintage television set",
+  "reason": "무선 장비 콘솔이 TV로 혼동될 수 있음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 78194,
+  "flagged": "dog",
+  "surface": "dog",
+  "gt_objects": [
+   "couch",
+   "person",
+   "toothbrush"
+  ],
+  "caption": "In the heart of the image, a young child is the star of the scene. The child, dressed in a blue shirt adorned with a white dog, is comfortably nestled on a white pillow adorned with a red and white checkered pattern. The child's face is lit up with a smile, adding a touch of warmth",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "a blue shirt adorned with a white dog",
+  "reason": "셔츠 프린트 그림.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a delicious spread. The table, a canvas of colors and textures, is adorned with a variety of food items and condiments. \n\nOn the left, a person is seen holding a plate of fresh",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "gathered around a table",
+  "reason": "바위 위 야외 식사로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a delicious spread. The table, a canvas of colors and textures, is adorned with a variety of food items and condiments. \n\nOn the left, a person is seen holding a plate of fresh",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "gathered around a table",
+  "reason": "바위 위 야외 식사로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 462643,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "person"
+  ],
+  "caption": "In the image, a hand is holding a smartphone case open, revealing its internal components. The case is predominantly black with orange accents, and it features a camera module at the center. The camera module is transparent, allowing a clear view of its internal components. The phone case is being held up against a blurred background,",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "predominantly black with orange accents",
+  "reason": "색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 369082,
+  "flagged": "toaster",
+  "surface": "toaster",
+  "gt_objects": [
+   "bowl",
+   "oven",
+   "spoon"
+  ],
+  "caption": "The image captures a cozy kitchen scene. Dominating the left side of the frame is a wooden cabinet, its rich brown hue contrasting with the white countertop. The countertop houses a black coffee maker, a black kettle, and a black toaster, all ready for use. \n\nOn the right side of the frame,",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a black kettle, and a black toaster",
+  "reason": "주방 조리대에 주전자·팬·매셔만 있고 토스터 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, green in color, is positioned to the left of the fork knife. The fork knife, also green, is positioned to the right of the fork. Both",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "스포크의 톱니 칼날부가 존재하나 GT 미표기. 캡션 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "0",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, green in color, is positioned to the left of the fork knife. The fork knife, also green, is positioned to the right of the fork. Both",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "스포크의 톱니 칼날부가 존재하나 GT 미표기. 캡션 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "0",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, green in color, is positioned to the left of the fork knife. The fork knife, also green, is positioned to the right of the fork. Both",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "스포크의 톱니 칼날부가 존재하나 GT 미표기. 캡션 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "0",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "The image presents a scene of a fork and a fork knife, both in the form of a fork and a knife, set against a white background. The fork, green in color, is positioned to the left of the fork knife. The fork knife, also green, is positioned to the right of the fork. Both",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a fork and a fork knife",
+  "reason": "스포크의 톱니 칼날부가 존재하나 GT 미표기. 캡션 반복 붕괴.",
+  "confidence": "low",
+  "degenerate": true
+ },
+ {
+  "alpha": "0",
+  "image_id": 312103,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "car",
+   "handbag",
+   "hot dog",
+   "person",
+   "pizza",
+   "sandwich",
+   "truck"
+  ],
+  "caption": "In the image, a man is the central figure, seated at a table in what appears to be a food court. He is wearing a red tank top and is holding a hot dog in his hand. The hot dog is generously topped with various ingredients, including what looks like ketchup and mustard. \n\nThe background of",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "seated at a table in what appears to be a food court",
+  "reason": "배경에 피크닉 테이블이 명확히 보이나 GT 미표기.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene scene in a flower shop. Dominating the foreground is a white bucket, its surface adorned with a vibrant array of flowers. The flowers, a mix of yellow, orange, and red, are arranged in a pleasing pattern, their colors popping against the white bucket. \n\nIn the background, two",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a mix of yellow, orange, and red",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 292188,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "In the heart of a verdant field, a John Deere 4x4 is captured in motion, moving from the left to the right of the frame. The vehicle, a striking combination of green and black, is equipped with a sturdy bed and a sturdy trailer, ready for any journey. \n\nA man,",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "equipped with a sturdy bed and a sturdy trailer",
+  "reason": "ATV 적재함.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 542782,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "In the heart of a snowy mountain, a vibrant scene unfolds. A group of six individuals, clad in winter gear, are seated on a yellow ski lift. The lift, a symbol of adventure and exploration, is equipped with a black and red patterned seat, adding a touch of color to the otherwise monochrome landscape",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "equipped with a black and red patterned seat",
+  "reason": "리프트 좌석. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 536158,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "boat",
+   "person"
+  ],
+  "caption": "In the image, a young man is immersed in the exhilarating world of water sports. He's donned in a vibrant red and blue life jacket, which contrasts beautifully with the white helmet he's wearing. His white helmet is not just for safety, but also for visibility. He's holding a black and orange kayak",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "holding a black and orange kayak",
+  "reason": "카약 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 246248,
+  "flagged": "bird",
+  "surface": "turkey",
+  "gt_objects": [
+   "car",
+   "stop sign",
+   "traffic light",
+   "truck"
+  ],
+  "caption": "The image captures a bustling street scene in Turkey. The street, painted in a light gray color, is flanked by buildings on both sides. The buildings, adorned with flags fluttering in the breeze, add a splash of color to the scene. \n\nOn the left side of the street, a red stop sign stands",
+  "category": "A3",
+  "verdict": "false_positive",
+  "evidence": "a bustling street scene in Turkey",
+  "reason": "국가명 Turkey가 조류 turkey로 매핑됨.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0",
+  "image_id": 475484,
+  "flagged": "boat",
+  "surface": "houseboat",
+  "gt_objects": [
+   "car",
+   "parking meter",
+   "person",
+   "traffic light"
+  ],
+  "caption": "The image captures a vibrant scene in Miami, Florida. Dominating the foreground is a yellow parking meter, its surface adorned with a charming design of houses and a houseboat. The meter, standing tall on a concrete sidewalk, is positioned on the right side of the image, its vibrant color contrasting with the surrounding environment.",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "a design of houses and a houseboat",
+  "reason": "주차 미터기에 그려진 그림이며 실물 배 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 325992,
+  "flagged": "keyboard",
+  "surface": "keyboard",
+  "gt_objects": [
+   "book",
+   "bottle",
+   "cell phone",
+   "dining table",
+   "laptop",
+   "tv"
+  ],
+  "caption": "The image captures a scene of a desk, bathed in the soft glow of a lamp. Dominating the center of the desk is a black laptop, its screen blank and its keyboard partially visible. The laptop, a symbol of productivity, is nestled between two other items on the desk.\n\nTo the left of the laptop",
+  "category": "A5",
+  "verdict": "false_positive",
+  "evidence": "its keyboard partially visible",
+  "reason": "GT laptop의 부품.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the main subject. She is comfortably seated on a bed, her legs crossed in a relaxed manner. Her body is angled towards the right side of the image, suggesting she might be in a relaxed state. \n\nIn her lap, she is holding a laptop, which is",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "comfortably seated on a bed",
+  "reason": "실제는 소파.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 542423,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "backpack",
+   "bench",
+   "car",
+   "handbag",
+   "person"
+  ],
+  "caption": "In the image, a solitary figure is seated on a wooden bench, their back to the camera. The bench, positioned in the center of the image, is made of metal and has a wooden seat. The bench is situated on a grassy field, which is dotted with trees and bushes. The sky above is a",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "The bench ... has a wooden seat",
+  "reason": "GT bench의 좌판. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 85543,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "donut"
+  ],
+  "caption": "The image captures a delightful scene of six donuts, each with its own unique flavor and shape, neatly arranged inside a box. The box, placed on a table, is filled with these sweet treats, creating a feast for the eyes.\n\nStarting from the top left, there's a donut with a chocolate glaze",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "The box, placed on a table",
+  "reason": "프레임에 탁자 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 51028,
+  "flagged": "dining table",
+  "surface": "desk",
+  "gt_objects": [
+   "chair",
+   "keyboard",
+   "laptop",
+   "mouse",
+   "tv"
+  ],
+  "caption": "The image captures a scene of a computer lab, bathed in the soft glow of a computer monitor. The monitor, a vibrant display of a game, is positioned on the left side of the image, its screen alive with the colors of a colorful keyboard. \n\nTo the right of the monitor, a desk holds two",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a desk holds two",
+  "reason": "교실 작업용 책상. desk를 dining table로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of an old-fashioned clock and radio. The room is dominated by a desk, upon which rests a radio and a television set. The television set, a relic of the mid-20th century, is adorned with a clock on its",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a radio and a television set",
+  "reason": "무선 장비 콘솔. television→tv 매핑 및 오인.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 458073,
+  "flagged": "tv",
+  "surface": "television",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "The image captures a scene of a vintage room, bathed in the soft glow of an old-fashioned clock and radio. The room is dominated by a desk, upon which rests a radio and a television set. The television set, a relic of the mid-20th century, is adorned with a clock on its",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a radio and a television set",
+  "reason": "무선 장비 콘솔. television→tv 매핑 및 오인.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 78194,
+  "flagged": "dog",
+  "surface": "dog",
+  "gt_objects": [
+   "couch",
+   "person",
+   "toothbrush"
+  ],
+  "caption": "In the heart of the image, a young child is the star of the scene. The child, dressed in a blue shirt adorned with a white dog, is comfortably nestled on a white pillow adorned with a red and white checkered pattern. The child's face is lit up with a smile, adding a touch of warmth",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "a blue shirt adorned with a white dog",
+  "reason": "셔츠 프린트 그림.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 489743,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "bed",
+   "cat",
+   "couch",
+   "teddy bear"
+  ],
+  "caption": "In the heart of the image, a gray and white cat is the star of the scene. The cat is comfortably nestled on a brown pillow adorned with an orange and white floral pattern. The cat's head is gently resting on the pillow, while its body is sprawled out on the bed, its front paws play",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "an orange and white floral pattern",
+  "reason": "쿠션 무늬 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a delicious spread. The table, a canvas of colors and textures, is adorned with a variety of food items and condiments. \n\nOn the left, a person is seen holding a plate of fresh",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "gathered around a table",
+  "reason": "바위 위 야외 식사로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of a serene outdoor setting, a group of people are gathered around a table, their attention captivated by a delicious spread. The table, a canvas of colors and textures, is adorned with a variety of food items and condiments. \n\nOn the left, a person is seen holding a plate of fresh",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "gathered around a table",
+  "reason": "바위 위 야외 식사로 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 369082,
+  "flagged": "toaster",
+  "surface": "toaster",
+  "gt_objects": [
+   "bowl",
+   "oven",
+   "spoon"
+  ],
+  "caption": "The image captures a cozy kitchen scene. Dominating the left side of the frame is a wooden cabinet, its rich brown hue contrasting with the white countertop. The countertop houses a black coffee maker, a black kettle, and a black toaster, each adding a touch of modernity to the space.\n\nOn the right",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "a black kettle, and a black toaster",
+  "reason": "조리대에 토스터 없음.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 570107,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "cat",
+   "chair",
+   "person"
+  ],
+  "caption": "In the image, a man is seen walking down a hallway. He is carrying a black backpack on his back, which is adorned with a white and orange striped pattern. The backpack is not just any ordinary one, but a cat carrier. The cat, with its head peeking out from the carrier, is looking at",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a white and orange striped pattern",
+  "reason": "배낭 무늬 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 268390,
+  "flagged": "book",
+  "surface": "book",
+  "gt_objects": [
+   "cup",
+   "dining table",
+   "remote",
+   "sink"
+  ],
+  "caption": "The image captures a scene of a kitchen, where a white countertop serves as the stage for a collection of objects. Dominating the scene is a white and brown food processor, its handle and blade resting on the countertop. The food processor, a symbol of culinary prowess, is accompanied by a black and white book",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a black and white book",
+  "reason": "조리대에 잡지·인쇄물이 놓여 있으나 GT 미표기.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 312103,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "car",
+   "handbag",
+   "hot dog",
+   "person",
+   "pizza",
+   "sandwich",
+   "truck"
+  ],
+  "caption": "In the image, a man is the central figure, seated at a table in what appears to be a food court. He is wearing a red tank top and is holding a hot dog in his hand. The hot dog is generously topped with various ingredients, including what looks like ketchup and mustard. \n\nThe background of",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "seated at a table in what appears to be a food court",
+  "reason": "배경에 피크닉 테이블이 명확히 보이나 GT 미표기.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene scene in a flower shop. Dominating the foreground is a white bucket, its surface speckled with vibrant yellow and orange flowers. The flowers, with their rich colors, are arranged in a neat row, their petals slightly overlapping each other, creating a sense of symmetry. \n\nIn the background",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "vibrant yellow and orange flowers",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 536158,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "boat",
+   "person"
+  ],
+  "caption": "In the image, a young man is immersed in the exhilarating world of water sports. He's donned in a vibrant red and blue life jacket, which contrasts beautifully with the white helmet he's wearing. His white helmet is not just for safety, but also for visibility. He's holding a black and orange kayak",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "holding a black and orange kayak",
+  "reason": "카약 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 270556,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "bus",
+   "car",
+   "clock",
+   "truck"
+  ],
+  "caption": "The image captures a vibrant cityscape, bathed in the soft glow of a setting sun. The sky, painted in hues of pink and orange, casts a warm glow over the scene. The buildings, standing tall and proud, are adorned with a variety of architectural styles, each contributing to the city's rich tapestry",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "painted in hues of pink and orange",
+  "reason": "노을 하늘 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.1",
+  "image_id": 246248,
+  "flagged": "bird",
+  "surface": "turkey",
+  "gt_objects": [
+   "car",
+   "stop sign",
+   "traffic light",
+   "truck"
+  ],
+  "caption": "The image captures a bustling street scene in Turkey. The street, painted in a light gray color, is flanked by buildings on both sides. The buildings, adorned with flags fluttering in the breeze, add a splash of color to the scene. \n\nOn the left side of the street, a red stop sign stands",
+  "category": "A3",
+  "verdict": "false_positive",
+  "evidence": "a bustling street scene in Turkey",
+  "reason": "국가명 Turkey가 조류 turkey로 매핑됨.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the main subject. She is comfortably seated on a bed, her legs crossed in a relaxed manner. Her feet are resting on a patterned blanket, adding a touch of coziness to the scene. \n\nIn her hands, she holds a laptop, its screen glowing with",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "comfortably seated on a bed",
+  "reason": "실제는 소파.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 51028,
+  "flagged": "dining table",
+  "surface": "desk",
+  "gt_objects": [
+   "chair",
+   "keyboard",
+   "laptop",
+   "mouse",
+   "tv"
+  ],
+  "caption": "The image captures a scene in a classroom, where two desks and a computer monitor are set up. The desk on the left is occupied by a blue chair, while the one on the right is occupied by a white chair. \n\nOn the desk in front of the blue chair, there's a computer monitor. It's",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "two desks and a computer monitor",
+  "reason": "교실 책상. desk→dining table 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 51028,
+  "flagged": "dining table",
+  "surface": "desk",
+  "gt_objects": [
+   "chair",
+   "keyboard",
+   "laptop",
+   "mouse",
+   "tv"
+  ],
+  "caption": "The image captures a scene in a classroom, where two desks and a computer monitor are set up. The desk on the left is occupied by a blue chair, while the one on the right is occupied by a white chair. \n\nOn the desk in front of the blue chair, there's a computer monitor. It's",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "two desks and a computer monitor",
+  "reason": "교실 책상. desk→dining table 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 51028,
+  "flagged": "dining table",
+  "surface": "desk",
+  "gt_objects": [
+   "chair",
+   "keyboard",
+   "laptop",
+   "mouse",
+   "tv"
+  ],
+  "caption": "The image captures a scene in a classroom, where two desks and a computer monitor are set up. The desk on the left is occupied by a blue chair, while the one on the right is occupied by a white chair. \n\nOn the desk in front of the blue chair, there's a computer monitor. It's",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "two desks and a computer monitor",
+  "reason": "교실 책상. desk→dining table 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 532503,
+  "flagged": "backpack",
+  "surface": "backpack",
+  "gt_objects": [
+   "cell phone",
+   "handbag",
+   "person"
+  ],
+  "caption": "In the image, two individuals are standing on a frozen surface, their bodies partially submerged in the icy water. The person on the left is holding up a smartphone, their fingers extended towards the camera, capturing a moment of their adventure. The person on the right is wearing a black jacket and jeans, their backpack slung",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "their backpack slung",
+  "reason": "실제는 GT의 handbag(숄더백). 어깨끈 때문에 배낭과 혼동 가능.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 78194,
+  "flagged": "dog",
+  "surface": "dog",
+  "gt_objects": [
+   "couch",
+   "person",
+   "toothbrush"
+  ],
+  "caption": "In the heart of the image, a young child is the star of the scene. The child, adorned in a blue shirt with a dog graphic, is comfortably nestled on a white pillow adorned with a red and white plaid pattern. The child's attention is focused on a toothbrush they hold in their hands, their",
+  "category": "A6",
+  "verdict": "false_positive",
+  "evidence": "a blue shirt with a dog graphic",
+  "reason": "셔츠 프린트 그림.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 134133,
+  "flagged": "handbag",
+  "surface": "handbag",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the heart of the image, a group of people are gathered on a sandy beach, their backs to the camera. The group is adorned with backpacks and handbags, each carrying their own piece of beach essentials. Among them, a person stands out, their back to the camera and their legs crossed, suggesting a",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "adorned with backpacks and handbags",
+  "reason": "작은 파우치·색낭이 다수 보이나 GT는 backpack만 표기.",
+  "confidence": "low",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 156372,
+  "flagged": "person",
+  "surface": "passenger",
+  "gt_objects": [
+   "backpack",
+   "boat",
+   "chair",
+   "suitcase"
+  ],
+  "caption": "The image captures a serene scene on a boat. The boat, painted in hues of red and white, is adorned with wooden railings and a wooden deck. A yellow chair, sturdy and inviting, is situated on the deck, offering a place for passengers to rest. \n\nOn the deck, two backpacks are stacked",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "offering a place for passengers to rest",
+  "reason": "가정적·비지시적 언급으로 화면 내 인물을 단언하지 않음. 실제 무인 갑판.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 570107,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "cat",
+   "chair",
+   "person"
+  ],
+  "caption": "In the image, a man is seen walking down a hallway. He is carrying a black backpack on his back, which has a white cat comfortably nestled inside. The cat, with its orange fur and white paws, is looking out from the back of the backpack, as if intrigued by something outside the frame.",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "with its orange fur and white paws",
+  "reason": "털 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "In the center of the image, there's a vibrant orange fruit, its skin a rich orange color. To the right of the orange, there's a green plastic fork and knife set. The fork and knife are positioned in such a way that they face the orange, creating a sense of symmetry. The background of the",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a green plastic fork and knife set",
+  "reason": "스포크 측면의 톱니 칼날이 실재하나 GT는 fork/spoon만 표기.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 563730,
+  "flagged": "knife",
+  "surface": "knife",
+  "gt_objects": [
+   "dining table",
+   "fork",
+   "orange",
+   "spoon"
+  ],
+  "caption": "In the center of the image, there's a vibrant orange fruit, its skin a rich orange color. To the right of the orange, there's a green plastic fork and knife set. The fork and knife are positioned in such a way that they face the orange, creating a sense of symmetry. The background of the",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "a green plastic fork and knife set",
+  "reason": "스포크 측면의 톱니 칼날이 실재하나 GT는 fork/spoon만 표기.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 38438,
+  "flagged": "sports ball",
+  "surface": "ball",
+  "gt_objects": [
+   "cat",
+   "handbag"
+  ],
+  "caption": "In the heart of the image, a Siamese cat has found itself in a playful predicament. The feline, with its fluffy fur as white as snow, is curled up in a ball, its body stretched out in an attempt to fit between two pairs of high heels and a pair of black pumps. The",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "is curled up in a ball",
+  "reason": "관용 표현이며 실물 공 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 312103,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "car",
+   "handbag",
+   "hot dog",
+   "person",
+   "pizza",
+   "sandwich",
+   "truck"
+  ],
+  "caption": "In the image, a man is the central figure, seated at a red picnic table. He is wearing a red tank top and glasses, and is holding a hot dog in his right hand. The hot dog is generously topped with sauerkraut and cheese, and is accompanied by a side of coleslaw",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "seated at a red picnic table",
+  "reason": "배경에 피크닉 테이블이 보이나 GT 미표기.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene moment in a flower shop, where three white buckets filled with vibrant flowers are arranged on a table. The flowers, each unique in color and shape, are a riot of yellow, orange, and red, creating a visually appealing contrast. \n\nThe bucket on the left is filled with yellow lilies",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a riot of yellow, orange, and red",
+  "reason": "꽃 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 542782,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "In the heart of a snowy landscape, a vibrant yellow lift car is filled with snowboarders. The car is adorned with a striking red and black pattern, reminiscent of a kaleidoscope. The snowboards, each unique in color and design, are neatly arranged on the car's side, ready for their next adventure",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "a vibrant yellow lift car",
+  "reason": "곤돌라 캐빈을 뜻하며 자동차 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 542782,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "In the heart of a snowy landscape, a vibrant yellow lift car is filled with snowboarders. The car is adorned with a striking red and black pattern, reminiscent of a kaleidoscope. The snowboards, each unique in color and design, are neatly arranged on the car's side, ready for their next adventure",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "a vibrant yellow lift car",
+  "reason": "곤돌라 캐빈을 뜻하며 자동차 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 542782,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "In the heart of a snowy landscape, a vibrant yellow lift car is filled with snowboarders. The car is adorned with a striking red and black pattern, reminiscent of a kaleidoscope. The snowboards, each unique in color and design, are neatly arranged on the car's side, ready for their next adventure",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "a vibrant yellow lift car",
+  "reason": "곤돌라 캐빈을 뜻하며 자동차 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 246248,
+  "flagged": "bird",
+  "surface": "turkey",
+  "gt_objects": [
+   "car",
+   "stop sign",
+   "traffic light",
+   "truck"
+  ],
+  "caption": "The image captures a bustling street scene in Turkey. The street, painted in a light gray color, is flanked by buildings on both sides. The buildings, adorned with flags fluttering in the breeze, add a touch of color to the scene. \n\nOn the left side of the street, a stop sign stands tall",
+  "category": "A3",
+  "verdict": "false_positive",
+  "evidence": "a bustling street scene in Turkey",
+  "reason": "국가명이 조류로 매핑됨.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "0.5",
+  "image_id": 426852,
+  "flagged": "bench",
+  "surface": "bench",
+  "gt_objects": [
+   "vase"
+  ],
+  "caption": "The image captures a vibrant scene from a garden show. Dominating the foreground is a blue and white striped fountain, standing tall and proud. It's nestled amidst a lush green garden, with a bench placed nearby, inviting visitors to sit and enjoy the view.\n\nThe garden itself is a riot of colors, with trees and",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "with a bench placed nearby",
+  "reason": "정원 전시장에 매달린 벤치형 그네가 보이나 GT 미표기.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 245447,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "cup",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the heart of a bustling diner, three women and a child share a meal. The woman on the left, engrossed in her phone, holds a large orange mug, perhaps savoring a warm beverage. Her companion on the right, engrossed in her phone, is holding a cell phone, perhaps",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "holds a large orange mug",
+  "reason": "머그 색상 형용사. 실제 주황색 보온병.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 320180,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "couch",
+   "laptop",
+   "person"
+  ],
+  "caption": "In this black and white photo, a woman is the main subject. She is comfortably seated on a bed, her legs crossed in a relaxed manner. Her feet are resting on a patterned blanket, adding a touch of color to the otherwise monochrome setting. \n\nIn her lap, she holds a laptop, its screen",
+  "category": "D1",
+  "verdict": "uncertain",
+  "evidence": "comfortably seated on a bed",
+  "reason": "실제는 소파.",
+  "confidence": "medium",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 458073,
+  "flagged": "cell phone",
+  "surface": "telephone",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the black and white photo, a desk is the central object, hosting a radio and a telephone. The radio, with its vintage design, is positioned on the left side of the desk. Adjacent to it, on the right side, is a telephone. The telephone, also in black and white, is slightly",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "hosting a radio and a telephone",
+  "reason": "구식 유선 전화를 COCO cell phone으로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 458073,
+  "flagged": "cell phone",
+  "surface": "telephone",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the black and white photo, a desk is the central object, hosting a radio and a telephone. The radio, with its vintage design, is positioned on the left side of the desk. Adjacent to it, on the right side, is a telephone. The telephone, also in black and white, is slightly",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "hosting a radio and a telephone",
+  "reason": "구식 유선 전화를 COCO cell phone으로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 458073,
+  "flagged": "cell phone",
+  "surface": "telephone",
+  "gt_objects": [
+   "book",
+   "chair",
+   "clock",
+   "dining table",
+   "person"
+  ],
+  "caption": "In the black and white photo, a desk is the central object, hosting a radio and a telephone. The radio, with its vintage design, is positioned on the left side of the desk. Adjacent to it, on the right side, is a telephone. The telephone, also in black and white, is slightly",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "hosting a radio and a telephone",
+  "reason": "구식 유선 전화를 COCO cell phone으로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 489743,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "bed",
+   "cat",
+   "couch",
+   "teddy bear"
+  ],
+  "caption": "In the heart of the image, a gray and white cat is the star of the scene. It's curled up on a brown couch, its body relaxed and comfortable. The couch, adorned with orange and white floral patterns, adds a touch of warmth to the scene.\n\nJust next to the cat, a brown stuffed animal",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "adorned with orange and white floral patterns",
+  "reason": "쿠션 무늬 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 134133,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the center of the image, a person is seated on the ground, surrounded by various food items. The person is wearing a backpack, which is visible in the background. \n\nOn the table, there is a black ice cream container filled with chocolate ice cream. Next to the container, there is a package of Ch",
+  "category": "C1",
+  "verdict": "hallucination",
+  "evidence": "On the table, there is a black ice cream container",
+  "reason": "바위 위 음식 배치이며 탁자 없음.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 134133,
+  "flagged": "bowl",
+  "surface": "container",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the center of the image, a person is seated on the ground, surrounded by various food items. The person is wearing a backpack, which is visible in the background. \n\nOn the table, there is a black ice cream container filled with chocolate ice cream. Next to the container, there is a package of Ch",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a black ice cream container",
+  "reason": "container를 bowl로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 134133,
+  "flagged": "bowl",
+  "surface": "container",
+  "gt_objects": [
+   "backpack",
+   "cake",
+   "knife",
+   "person"
+  ],
+  "caption": "In the center of the image, a person is seated on the ground, surrounded by various food items. The person is wearing a backpack, which is visible in the background. \n\nOn the table, there is a black ice cream container filled with chocolate ice cream. Next to the container, there is a package of Ch",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a black ice cream container",
+  "reason": "container를 bowl로 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 462643,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "person"
+  ],
+  "caption": "In the heart of the image, a hand cradles an open circuit board, revealing the intricate details within. The board, a canvas of black and orange circuit boards, is open, revealing the internal components. The circuit board is nestled within a yellow casing, which contrasts with the black and orange of the board.",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a canvas of black and orange circuit boards",
+  "reason": "기판 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 462643,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "cell phone",
+   "person"
+  ],
+  "caption": "In the heart of the image, a hand cradles an open circuit board, revealing the intricate details within. The board, a canvas of black and orange circuit boards, is open, revealing the internal components. The circuit board is nestled within a yellow casing, which contrasts with the black and orange of the board.",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "a canvas of black and orange circuit boards",
+  "reason": "기판 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 570107,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "backpack",
+   "cat",
+   "chair",
+   "person"
+  ],
+  "caption": "In the image, a man is standing in a room, carrying a black backpack with a cat comfortably nestled inside. The backpack is black, with orange and white stripes, and is equipped with a black zipper. The man is dressed in a striped shirt, and his hands are tucked into his pockets. \n\nThe room around",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "with orange and white stripes",
+  "reason": "배낭 무늬 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 324155,
+  "flagged": "traffic light",
+  "surface": "streetlight",
+  "gt_objects": [
+   "person",
+   "skateboard"
+  ],
+  "caption": "In this black and white photograph, a young man is the main subject, suspended in mid-air above a street. He's dressed casually in a gray t-shirt and shorts, and his arms are spread wide in a display of joy. His skateboard is beneath him, its white wheels gleaming under the streetlights.\n\nThe",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "gleaming under the streetlights",
+  "reason": "가로등이며 신호등 아님. streetlight→traffic light 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 462756,
+  "flagged": "chair",
+  "surface": "seat",
+  "gt_objects": [
+   "bicycle",
+   "car",
+   "motorcycle",
+   "truck"
+  ],
+  "caption": "In the heart of a cornucopia, a silver Honda motorcycle stands parked on a dirt road. The motorcycle, facing towards the right side of the image, is adorned with a black saddle bag and a black seat. The license plate of the motorcycle reads \"C1111\", adding a touch of personalization",
+  "category": "A4",
+  "verdict": "false_positive",
+  "evidence": "a black saddle bag and a black seat",
+  "reason": "오토바이 안장. seat→chair 과확장.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 340047,
+  "flagged": "bear",
+  "surface": "bear",
+  "gt_objects": [
+   "backpack",
+   "bench",
+   "bus",
+   "cup",
+   "person",
+   "umbrella"
+  ],
+  "caption": "In the heart of a bustling beachside area, a young woman stands out, her gaze directed towards the camera. She's holding a vibrant pink umbrella, which bears the inscriptions \"Mein Dr. Angrle Rehre schriftlich\" and \"Es schriftlich ist eine Rechtliche.\" The",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "which bears the inscriptions",
+  "reason": "동사 bear이며 곰이 아님.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 312103,
+  "flagged": "dining table",
+  "surface": "table",
+  "gt_objects": [
+   "car",
+   "handbag",
+   "hot dog",
+   "person",
+   "pizza",
+   "sandwich",
+   "truck"
+  ],
+  "caption": "In the image, a man is captured in a moment of joy, seated at a picnic table under the shade of a yellow tent. He's wearing a red tank top and glasses, adding a pop of color to the scene. In his hand, he holds a hot dog, which is generously topped with cheese and chili",
+  "category": "B1",
+  "verdict": "false_positive",
+  "evidence": "seated at a picnic table under the shade",
+  "reason": "배경에 피크닉 테이블 존재하나 GT 미표기.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 27935,
+  "flagged": "orange",
+  "surface": "orange",
+  "gt_objects": [
+   "dining table",
+   "potted plant",
+   "vase"
+  ],
+  "caption": "The image captures a serene moment in a floral shop, where three white buckets filled with vibrant flowers are arranged on a table. The flowers, each unique in color and shape, are a riot of colors, with yellow lilies standing out against the white buckets. Orange lilies add a pop of color to the scene,",
+  "category": "A1",
+  "verdict": "false_positive",
+  "evidence": "Orange lilies add a pop of color",
+  "reason": "백합 색상 형용사.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 292188,
+  "flagged": "bed",
+  "surface": "bed",
+  "gt_objects": [
+   "car",
+   "dog",
+   "person",
+   "truck"
+  ],
+  "caption": "In the heart of the image, a John Deere ATV, painted in a striking shade of green, is parked on a lush lawn. The ATV, equipped with a sturdy bed and a sturdy trailer, is parked on the right side of the image. A man, dressed in a plaid shirt and sunglasses, is",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "equipped with a sturdy bed and a sturdy trailer",
+  "reason": "ATV 적재함.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 500703,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "handbag",
+   "person",
+   "train"
+  ],
+  "caption": "The image captures a moment on a city train platform, bathed in the soft glow of daylight. The train, a white train car, is in motion, moving towards us, its white exterior contrasting with the blue sky above. The platform, a vibrant yellow, is adorned with yellow platform markings, guiding passengers along their",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "The train, a white train car",
+  "reason": "객차를 뜻하며 자동차 아님. GT train과 동일 대상.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 542782,
+  "flagged": "car",
+  "surface": "car",
+  "gt_objects": [
+   "cell phone",
+   "person",
+   "skis",
+   "snowboard"
+  ],
+  "caption": "In the heart of a bustling ski resort, a group of six individuals are immersed in their winter sport. The skiers, clad in vibrant ski gear, are scattered around a yellow lift car. \n\nThe skier in the foreground, donned in a pink hat and a black beanie, is engrossed in",
+  "category": "A2",
+  "verdict": "false_positive",
+  "evidence": "scattered around a yellow lift car",
+  "reason": "곤돌라 캐빈.",
+  "confidence": "high",
+  "degenerate": false
+ },
+ {
+  "alpha": "1",
+  "image_id": 246248,
+  "flagged": "bird",
+  "surface": "turkey",
+  "gt_objects": [
+   "car",
+   "stop sign",
+   "traffic light",
+   "truck"
+  ],
+  "caption": "The image captures a bustling street scene in Turkey. The street, painted in a light gray color, is marked with white crosswalks and white lines for pedestrian crossing. A stop sign, red and white, stands prominently in the center of the image, its bold color contrasting with the surrounding environment. \n\nTo the right",
+  "category": "A3",
+  "verdict": "false_positive",
+  "evidence": "a bustling street scene in Turkey",
+  "reason": "국가명이 조류로 매핑됨.",
+  "confidence": "high",
+  "degenerate": false
+ }
+]

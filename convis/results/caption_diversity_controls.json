@@ -1,0 +1,59 @@
+{
+ "seed_variant": {
+  "description": "one fixed caption (captions[0]) rendered with 4 diffusion seeds; alpha=1",
+  "CHAIR_S": 20.0,
+  "CHAIR_I": 8.1,
+  "METEOR": 17.3,
+  "hallucinations": 25
+ },
+ "consensus_filter": {
+  "description": "post-hoc removal of objects mentioned in fewer than k of the 4 candidate captions, applied to the greedy (alpha=0) caption",
+  "rows": [
+   {
+    "k_min": 0,
+    "CHAIR_S": 19.0,
+    "CHAIR_I": 8.4,
+    "halluc": 25,
+    "mentions": 296,
+    "removed": 0,
+    "removed_halluc": 0
+   },
+   {
+    "k_min": 1,
+    "CHAIR_S": 13.0,
+    "CHAIR_I": 5.2,
+    "halluc": 15,
+    "mentions": 286,
+    "removed": 10,
+    "removed_halluc": 10
+   },
+   {
+    "k_min": 2,
+    "CHAIR_S": 7.0,
+    "CHAIR_I": 3.3,
+    "halluc": 9,
+    "mentions": 274,
+    "removed": 22,
+    "removed_halluc": 16
+   },
+   {
+    "k_min": 3,
+    "CHAIR_S": 5.0,
+    "CHAIR_I": 2.7,
+    "halluc": 7,
+    "mentions": 264,
+    "removed": 32,
+    "removed_halluc": 18
+   },
+   {
+    "k_min": 4,
+    "CHAIR_S": 2.0,
+    "CHAIR_I": 0.9,
+    "halluc": 2,
+    "mentions": 229,
+    "removed": 67,
+    "removed_halluc": 23
+   }
+  ]
+ }
+}

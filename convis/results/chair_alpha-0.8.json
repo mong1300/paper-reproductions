@@ -1,0 +1,1606 @@
+{
+ "overall_metrics": {
+  "Bleu_1": 0.21986309222879244,
+  "Bleu_2": 0.12797990042087506,
+  "Bleu_3": 0.06305216097784702,
+  "Bleu_4": 0.030963238308101732,
+  "METEOR": 0.16979525828128325,
+  "CIDEr": 2.1175254024327015e-08,
+  "SPICE": null,
+  "ROUGE_L": 0.2219358761026237,
+  "CHAIRs": 0.16,
+  "CHAIRi": 0.06040268456375839
+ },
+ "sentences": [
+  {
+   "image_id": 519055,
+   "caption": "In the image, a baseball player is captured in the midst of a powerful throw. He is dressed in a vibrant blue uniform with the word \"SIXERS\" emblazoned across the chest, and a matching blue cap adorns his head. His left hand is firmly gripping the baseball, while his right hand",
+   "hallucinated": [],
+   "generated": [
+    "person"
+   ],
+   "gt": [
+    "baseball glove",
+    "car",
+    "chair",
+    "person",
+    "sports ball"
+   ]
+  },
+  {
+   "image_id": 378098,
+   "caption": "The image presents a close-up view of a plate, which is adorned with a variety of food items. The plate is placed on a wooden surface, which adds a rustic charm to the scene. \n\nThe plate is filled with a variety of food items. There are several pieces of meat, which appear to be beef,",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "broccoli",
+    "carrot",
+    "dining table"
+   ]
+  },
+  {
+   "image_id": 359239,
+   "caption": "The image presents a close-up view of a pizza, resting on a white plate. The pizza is generously topped with a variety of toppings, including green basil leaves, red tomato sauce, and melted cheese. The plate is placed on a white tablecloth, which contrasts with the pizza and plate, making them stand out.",
+   "hallucinated": [],
+   "generated": [
+    "pizza",
+    "pizza",
+    "pizza"
+   ],
+   "gt": [
+    "dining table",
+    "fork",
+    "knife",
+    "pizza",
+    "wine glass"
+   ]
+  },
+  {
+   "image_id": 230008,
+   "caption": "In the image, a man is seen riding a black motorcycle. He is dressed in a black jacket and a helmet, indicating his role as a police officer. The motorcycle is parked on the side of a road, with a green car parked in the background. The man is facing the camera, and his posture suggests he",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "motorcycle",
+    "person",
+    "motorcycle",
+    "car",
+    "person"
+   ],
+   "gt": [
+    "bicycle",
+    "car",
+    "motorcycle",
+    "person"
+   ]
+  },
+  {
+   "image_id": 245447,
+   "caption": "The image captures a lively scene in a restaurant. The main focus is a table, adorned with a vibrant yellow tablecloth and a white table runner. The table is set with a variety of items, including a blue cup, a white plate, and a glass of orange juice. \n\nOn the table, there are two",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "dining table",
+    "dining table",
+    "dining table",
+    "cup",
+    "orange",
+    "dining table"
+   ],
+   "gt": [
+    "cell phone",
+    "cup",
+    "dining table",
+    "person"
+   ]
+  },
+  {
+   "image_id": 326317,
+   "caption": "The image captures a moment on a city street, where a silver parking meter stands tall. The meter, with its black and gray color scheme, is the main focus of the image. It's positioned on the right side of the street, facing towards the left side of the image. \n\nThe parking meter is equipped with",
+   "hallucinated": [],
+   "generated": [
+    "parking meter",
+    "parking meter"
+   ],
+   "gt": [
+    "bicycle",
+    "car",
+    "parking meter",
+    "person",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 153976,
+   "caption": "The image captures a dynamic scene of a skateboarder performing a trick on a concrete wall. The skateboarder, dressed in a white shirt and blue jeans, is in mid-air, executing a jump trick. The skateboard, a vibrant red, is positioned beneath him, ready to land. The background is a stark contrast to",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person",
+    "skateboard"
+   ],
+   "gt": [
+    "car",
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 527447,
+   "caption": "The image captures a thrilling scene of a group of climbers making their way up a steep mountain. The climbers, clad in vibrant red and blue jackets, are seen descending a rocky cliff. Each climber is equipped with a backpack, their gear gleaming under the sunlight. The cliff they're climbing is rugged and steep,",
+   "hallucinated": [],
+   "generated": [
+    "backpack"
+   ],
+   "gt": [
+    "backpack",
+    "person",
+    "skis"
+   ]
+  },
+  {
+   "image_id": 325992,
+   "caption": "The image captures a scene of a cluttered workspace, dominated by a laptop on a wooden desk. The laptop, open and facing the camera, is the main focus of the image. It's positioned in the center of the desk, with its screen facing upwards, suggesting it's in use.\n\nTo the right of the",
+   "hallucinated": [],
+   "generated": [
+    "laptop",
+    "dining table",
+    "laptop",
+    "dining table"
+   ],
+   "gt": [
+    "book",
+    "bottle",
+    "cell phone",
+    "dining table",
+    "laptop",
+    "tv"
+   ]
+  },
+  {
+   "image_id": 74617,
+   "caption": "In the image, a young man is captured in the midst of a powerful swing on a tennis court. He is dressed in a blue shirt and black shorts, which contrast with the white lines of the court. His right hand grips a tennis racket, which is in motion, suggesting a dynamic play. The court itself is",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "tennis racket"
+   ],
+   "gt": [
+    "person",
+    "sports ball",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 525211,
+   "caption": "The image is a collage of four photographs, each depicting a different stage of a doughnut-making process. The top left photo shows a close-up of a doughnut with a white icing, and the top right photo shows the same doughnut with a different icing, possibly chocolate. The bottom left photo depicts a doughnut",
+   "hallucinated": [],
+   "generated": [
+    "donut",
+    "donut",
+    "donut"
+   ],
+   "gt": [
+    "bottle",
+    "donut",
+    "person"
+   ]
+  },
+  {
+   "image_id": 320180,
+   "caption": "In this black and white photo, a woman is the central figure, seated on a bed with a blue blanket. She is engrossed in a laptop, which is open and facing towards the left side of the image. The laptop screen is displaying a white image, which appears to be a book cover. The woman",
+   "hallucinated": [
+    "bed",
+    "book"
+   ],
+   "generated": [
+    "person",
+    "bed",
+    "laptop",
+    "laptop",
+    "book",
+    "person"
+   ],
+   "gt": [
+    "couch",
+    "laptop",
+    "person"
+   ]
+  },
+  {
+   "image_id": 438024,
+   "caption": "The image captures a serene canal scene in Amsterdam, Netherlands. The canal, a mirror of the city, is flanked by buildings of various architectural styles, including a mix of Dutch and English designs. The buildings, painted in a palette of earthy tones, stand tall and proud, their windows reflecting the city's vibrant",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "bicycle",
+    "boat",
+    "motorcycle"
+   ]
+  },
+  {
+   "image_id": 378096,
+   "caption": "In the image, a man and a woman are seated at a table in a restaurant. The man is dressed in a red sweater and the woman is wearing a black jacket. They are both holding wine glasses, suggesting a toast or a meal in progress. The table is set with a plate of food, a fork,",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person",
+    "dining table",
+    "person",
+    "person",
+    "wine glass",
+    "dining table",
+    "fork"
+   ],
+   "gt": [
+    "bowl",
+    "cake",
+    "chair",
+    "dining table",
+    "fork",
+    "person",
+    "spoon",
+    "wine glass"
+   ]
+  },
+  {
+   "image_id": 356424,
+   "caption": "In the image, a man is seated at a wooden table, engrossed in a conversation with someone off-camera. He is dressed in a black sweater, adding a touch of contrast to the scene. The table is adorned with a white plate holding a variety of food items, including a sandwich and a salad. A",
+   "hallucinated": [
+    "sandwich"
+   ],
+   "generated": [
+    "person",
+    "dining table",
+    "dining table",
+    "sandwich"
+   ],
+   "gt": [
+    "bottle",
+    "car",
+    "chair",
+    "cup",
+    "dining table",
+    "person"
+   ]
+  },
+  {
+   "image_id": 206218,
+   "caption": "The image captures a scene in a workshop, where a robot, painted in a striking shade of blue, stands out against the more muted tones of the room. The robot, with its arms and legs extended, is positioned on a wooden platform, which is adorned with a black and white striped pattern. \n\nThe robot is",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "dining table",
+    "keyboard",
+    "laptop",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 209782,
+   "caption": "In this black and white photograph, a man is captured in a moment of quiet contemplation. He is seated on a wooden bench, his hands resting on his knees as he gazes off to the side. His attire is simple yet stylish, consisting of a black jacket and a white shirt. \n\nThe bench he sits",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "bench",
+    "bench"
+   ],
+   "gt": [
+    "backpack",
+    "bench",
+    "bottle",
+    "car",
+    "handbag",
+    "person",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 225225,
+   "caption": "The image captures a moment on a city street, where a vibrant yellow and blue train is making its way. The train, with its two cars, is positioned on the left side of the image, moving towards the right. The train is adorned with a sign that reads \"4014\", indicating its route or",
+   "hallucinated": [],
+   "generated": [
+    "train",
+    "train",
+    "car",
+    "train"
+   ],
+   "gt": [
+    "car",
+    "person",
+    "train"
+   ]
+  },
+  {
+   "image_id": 308555,
+   "caption": "The image captures a scene of a bustling kitchen, bathed in the soft glow of a kitchen light. Dominating the center of the image is a large stainless steel oven, its surface gleaming under the light. The oven is not alone; it's accompanied by a large metal refrigerator, its surface also gleaming.",
+   "hallucinated": [
+    "refrigerator"
+   ],
+   "generated": [
+    "oven",
+    "oven",
+    "refrigerator"
+   ],
+   "gt": [
+    "oven",
+    "pizza",
+    "toaster"
+   ]
+  },
+  {
+   "image_id": 7281,
+   "caption": "In the image, a group of three people are seen riding horses on a sandy beach. The person on the left is dressed in a white shirt and black pants, while the person in the middle is wearing a black shirt and black pants. The person on the right is dressed in a white shirt and black pants. All",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "horse",
+    "person",
+    "person",
+    "person"
+   ],
+   "gt": [
+    "horse",
+    "person"
+   ]
+  },
+  {
+   "image_id": 109005,
+   "caption": "In the heart of a verdant landscape, a majestic elephant, its skin a rich brown, stands majestically. The elephant's trunk, a symbol of its strength and intelligence, is extended towards the right side of the image. Its ears, a testament to its hearing, are perked up, ready to react",
+   "hallucinated": [],
+   "generated": [
+    "elephant",
+    "elephant"
+   ],
+   "gt": [
+    "elephant"
+   ]
+  },
+  {
+   "image_id": 542423,
+   "caption": "In the image, a solitary figure is seated on a wooden bench, which is situated on a grassy field. The bench, with its sturdy wooden frame, is positioned in the center of the image, drawing the viewer's attention. The grassy field, a vibrant green, extends into the distance, providing a natural",
+   "hallucinated": [],
+   "generated": [
+    "bench",
+    "bench"
+   ],
+   "gt": [
+    "backpack",
+    "bench",
+    "car",
+    "handbag",
+    "person"
+   ]
+  },
+  {
+   "image_id": 85543,
+   "caption": "The image presents a delightful assortment of doughnuts, neatly arranged in a box. The doughnuts are a vibrant mix of colors, with the majority being shades of pink, white, and orange. Each doughnut is unique, with some having a hole in the center, while others have a ring around the rim. The",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "donut",
+    "donut",
+    "orange",
+    "donut"
+   ],
+   "gt": [
+    "donut"
+   ]
+  },
+  {
+   "image_id": 27982,
+   "caption": "The image captures a modern bathroom bathed in a soothing palette of gray and white. Dominating the scene is a pristine white toilet, its lid closed, standing in stark contrast to the surrounding gray tiles. Adjacent to it, a white sink is installed, its surface gleaming under the light. \n\nTo the right",
+   "hallucinated": [],
+   "generated": [
+    "toilet",
+    "sink"
+   ],
+   "gt": [
+    "sink",
+    "toilet"
+   ]
+  },
+  {
+   "image_id": 495578,
+   "caption": "In the image, a tennis player is captured in the midst of a powerful swing. The player, dressed in a crisp white shirt and black shorts, is positioned on the right side of the frame. The tennis racket, held firmly in the player's right hand, is angled towards the left side of the image, ready",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person",
+    "tennis racket",
+    "person"
+   ],
+   "gt": [
+    "chair",
+    "person",
+    "sports ball",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 482951,
+   "caption": "In the image, a young girl is the main subject, standing on a concrete sidewalk. She is dressed in a vibrant dress that is a riot of colors, with hues of blue, red, and yellow. The dress is adorned with a blue and red pattern that adds a touch of whimsy to her appearance.\n\nThe",
+   "hallucinated": [],
+   "generated": [
+    "person"
+   ],
+   "gt": [
+    "car",
+    "kite",
+    "person"
+   ]
+  },
+  {
+   "image_id": 540642,
+   "caption": "The image captures a modern kitchen bathed in soft light. Dominating the scene is a white refrigerator, its sleek design complemented by a black handle. Adjacent to it, a white stove stands ready for culinary adventures. The kitchen is further adorned with wooden cabinets, their warm tones contrasting with the white of the appliances",
+   "hallucinated": [],
+   "generated": [
+    "refrigerator",
+    "oven"
+   ],
+   "gt": [
+    "oven",
+    "refrigerator",
+    "sink"
+   ]
+  },
+  {
+   "image_id": 51028,
+   "caption": "The image captures a vibrant scene in a room that is filled with various objects. Dominating the center of the room is a large, colorful rug that is a riot of colors. The rug is not just a carpet, but a play of colors and shapes, with each color and shape contributing to its unique pattern.\n\nTo",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "chair",
+    "keyboard",
+    "laptop",
+    "mouse",
+    "tv"
+   ]
+  },
+  {
+   "image_id": 12192,
+   "caption": "In the image, a young boy is the main subject, standing on a sandy beach. He is dressed in a white shirt and blue shorts, and is holding a green tennis racket in his right hand. His left hand is holding a yellow tennis ball, which he is about to hit. The beach around him is dotted",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "tennis racket",
+    "sports ball"
+   ],
+   "gt": [
+    "person",
+    "sports ball",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 414236,
+   "caption": "The image captures a delightful scene of a meal. At the center of the frame is a white plate, which holds a sandwich and a side dish. The sandwich, with its golden-brown crust, is the star of the show. It's generously filled with a vibrant mix of ingredients, including lettuce, tomato, and",
+   "hallucinated": [],
+   "generated": [
+    "sandwich",
+    "sandwich"
+   ],
+   "gt": [
+    "cell phone",
+    "cup",
+    "dining table",
+    "sandwich"
+   ]
+  },
+  {
+   "image_id": 458073,
+   "caption": "The image captures a scene of a small, cluttered room, bathed in the soft glow of a vintage lamp. Dominating the space is a desk, its surface adorned with a stack of books and a stack of papers, hinting at a busy work environment. \n\nTo the left of the desk, a wooden",
+   "hallucinated": [],
+   "generated": [
+    "dining table",
+    "book",
+    "dining table"
+   ],
+   "gt": [
+    "book",
+    "chair",
+    "clock",
+    "dining table",
+    "person"
+   ]
+  },
+  {
+   "image_id": 105552,
+   "caption": "The image captures a moment at an airport, where a large white airplane is parked on the tarmac. The airplane, adorned with a red and white tail, is the central focus of the image. It's positioned in the center of the frame, facing towards the right side of the image. \n\nThe tarmac on",
+   "hallucinated": [],
+   "generated": [
+    "airplane",
+    "airplane"
+   ],
+   "gt": [
+    "airplane",
+    "person",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 381213,
+   "caption": "In the heart of a verdant field, a trio of zebras, their coats a striking contrast of black and white stripes, are captured in a moment of tranquility. The zebra on the left, its head lowered in a relaxed manner, seems to be grazing on the lush green grass. Its companion on the",
+   "hallucinated": [],
+   "generated": [
+    "zebra",
+    "zebra"
+   ],
+   "gt": [
+    "zebra"
+   ]
+  },
+  {
+   "image_id": 532503,
+   "caption": "In the image, there are two individuals standing on a frozen lake. The person on the left is dressed in a vibrant red jacket, while the person on the right is wearing a blue jacket. They are both holding cameras, their heads turned towards the camera, capturing the serene beauty of the frozen landscape. The lake itself",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person"
+   ],
+   "gt": [
+    "cell phone",
+    "handbag",
+    "person"
+   ]
+  },
+  {
+   "image_id": 189775,
+   "caption": "The image captures a dynamic scene on a blue tennis court. The main focus is a tennis player, dressed in a gray and white outfit, who is in the midst of a powerful swing. His right hand is extended, gripping the tennis racket, while his left hand is poised to strike the ball. The ball, a",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "tennis racket",
+    "sports ball",
+    "sports ball"
+   ],
+   "gt": [
+    "chair",
+    "person",
+    "sports ball",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 397101,
+   "caption": "In the image, a female tennis player is captured in the midst of a powerful swing. She is dressed in a vibrant red tank top and black shorts, which contrast beautifully with her white visor. The player is holding a black tennis racket, poised to strike the ball that is frozen in the air in front of her",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person",
+    "person",
+    "tennis racket",
+    "sports ball"
+   ],
+   "gt": [
+    "person",
+    "sports ball",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 480551,
+   "caption": "The image presents a delightful scene of a pizza, resting on a white plate. The pizza, with its golden crust, is generously topped with a vibrant red sauce. The sauce is not just a simple drizzle, but a canvas for a variety of toppings. \n\nThe toppings are not just limited to the sauce. There",
+   "hallucinated": [],
+   "generated": [
+    "pizza",
+    "pizza"
+   ],
+   "gt": [
+    "dining table",
+    "pizza"
+   ]
+  },
+  {
+   "image_id": 78194,
+   "caption": "In the image, a young child is the main subject, comfortably seated on a white couch. The child is dressed in a blue shirt adorned with a red and white pattern, and a red and white striped shirt. The child is holding a green and white toothbrush in their right hand, and a red and white striped",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "couch",
+    "person",
+    "person",
+    "toothbrush"
+   ],
+   "gt": [
+    "couch",
+    "person",
+    "toothbrush"
+   ]
+  },
+  {
+   "image_id": 338905,
+   "caption": "The image captures a lively scene of a gathering at a restaurant. The restaurant is nestled amidst a lush garden, with a large white tent providing shade for the guests. The tent is adorned with a vibrant red and white striped awning, adding a pop of color to the scene.\n\nThe restaurant is bustling with activity. A",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "bottle",
+    "bowl",
+    "chair",
+    "cup",
+    "dining table",
+    "knife",
+    "motorcycle",
+    "person",
+    "potted plant",
+    "sandwich",
+    "umbrella",
+    "wine glass"
+   ]
+  },
+  {
+   "image_id": 489743,
+   "caption": "In the center of the image, a gray and white striped cat is the main subject. The cat is comfortably nestled on a brown and white blanket, which is draped over a wooden table. The cat's head is turned to the left, giving a slight smile to the camera. \n\nThe cat's body is relaxed,",
+   "hallucinated": [
+    "dining table"
+   ],
+   "generated": [
+    "cat",
+    "cat",
+    "dining table",
+    "cat",
+    "cat"
+   ],
+   "gt": [
+    "bed",
+    "cat",
+    "couch",
+    "teddy bear"
+   ]
+  },
+  {
+   "image_id": 416335,
+   "caption": "The image captures a bustling scene at a pizza parlor. The parlor is filled with people, all engrossed in the delightful process of making pizzas. The pizzas, a vibrant mix of colors, are the main attraction. They are neatly arranged on wooden tables, ready to be served to customers.\n\nThe tables are",
+   "hallucinated": [],
+   "generated": [
+    "pizza",
+    "person",
+    "pizza",
+    "pizza",
+    "dining table",
+    "dining table"
+   ],
+   "gt": [
+    "dining table",
+    "handbag",
+    "person",
+    "pizza"
+   ]
+  },
+  {
+   "image_id": 101636,
+   "caption": "The image captures a vibrant scene on a city street. Dominating the foreground is a black car, adorned with a vibrant yellow and green logo. The car is parked on the side of the street, facing towards the right side of the image. \n\nIn the background, a group of people can be seen walking along the",
+   "hallucinated": [],
+   "generated": [
+    "car",
+    "car",
+    "person"
+   ],
+   "gt": [
+    "backpack",
+    "bicycle",
+    "car",
+    "person",
+    "umbrella"
+   ]
+  },
+  {
+   "image_id": 134133,
+   "caption": "The image captures a moment of tranquility in a rugged outdoor setting. At the center of the frame, a group of people are gathered around a small, dark-colored pot. The pot, filled with a vibrant mix of colors, is the main focus of the image. \n\nThe people, clad in casual attire, are",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person"
+   ],
+   "gt": [
+    "backpack",
+    "cake",
+    "knife",
+    "person"
+   ]
+  },
+  {
+   "image_id": 462643,
+   "caption": "In the image, a hand is seen holding a smartphone with a black screen. The screen is turned on, displaying a vibrant blue background with a white outline of a flower. The hand is positioned in front of the phone, with the thumb touching the screen. The background is a blurred image of a wooden surface, suggesting",
+   "hallucinated": [],
+   "generated": [
+    "cell phone",
+    "cell phone"
+   ],
+   "gt": [
+    "cell phone",
+    "person"
+   ]
+  },
+  {
+   "image_id": 369082,
+   "caption": "The image captures a serene kitchen scene. Dominating the center of the frame is a wooden countertop, upon which rests a black coffee maker and a black teapot. The countertop is adorned with a white tile backsplash, adding a touch of elegance to the space.\n\nTo the left of the countertop, a",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "bowl",
+    "oven",
+    "spoon"
+   ]
+  },
+  {
+   "image_id": 223554,
+   "caption": "In the image, there are two pelicans standing on a concrete sidewalk. The pelican on the left is facing the camera, while the one on the right is facing away. They are both facing the same direction, as if they are engaged in a conversation. The sidewalk they are standing on is made of concrete,",
+   "hallucinated": [],
+   "generated": [
+    "bird",
+    "bird"
+   ],
+   "gt": [
+    "bird"
+   ]
+  },
+  {
+   "image_id": 41633,
+   "caption": "The image captures a scene of a vintage red Chevrolet pickup truck parked on a concrete surface. The truck, with its chrome grille and headlights, is the central focus of the image. It's positioned in the center, facing the right side of the frame. The truck is facing away from the camera, giving a sense of",
+   "hallucinated": [],
+   "generated": [
+    "truck",
+    "truck",
+    "truck",
+    "truck"
+   ],
+   "gt": [
+    "car",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 156372,
+   "caption": "The image captures a serene scene on a wooden boat. The boat, painted in a soothing shade of blue, is moored to a wooden pier. The pier, constructed from sturdy wood, extends into the water, providing a safe haven for the boat. \n\nOn the deck of the boat, a wooden chair is neatly",
+   "hallucinated": [],
+   "generated": [
+    "boat",
+    "boat",
+    "boat",
+    "boat",
+    "chair"
+   ],
+   "gt": [
+    "backpack",
+    "boat",
+    "chair",
+    "suitcase"
+   ]
+  },
+  {
+   "image_id": 570107,
+   "caption": "In the image, a man is seen in a room with a green wall and a white ceiling. He is dressed in a striped shirt and is holding a black backpack. The backpack is adorned with a white and orange cat, adding a touch of whimsy to the scene. The man is positioned in front of a green",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "person",
+    "backpack",
+    "backpack",
+    "orange",
+    "cat",
+    "person"
+   ],
+   "gt": [
+    "backpack",
+    "cat",
+    "chair",
+    "person"
+   ]
+  },
+  {
+   "image_id": 324155,
+   "caption": "In the heart of a bustling city, a young man is caught in a moment of pure exhilaration. He's dressed in a casual white t-shirt and black shorts, his feet firmly planted on a skateboard that's tilted to the side. His arms are outstretched, as if reaching for the sky, adding a",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "skateboard"
+   ],
+   "gt": [
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 414289,
+   "caption": "In the image, a young woman is the central figure, standing on a sidewalk in front of a building. She is dressed in a coat and a scarf, adding a touch of warmth to her appearance. In her hands, she holds a white cup, perhaps filled with a hot beverage. Her gaze is directed towards the",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "cup"
+   ],
+   "gt": [
+    "cell phone",
+    "cup",
+    "handbag",
+    "person"
+   ]
+  },
+  {
+   "image_id": 38155,
+   "caption": "The image captures a lively scene of a group of people engaged in a game of frisbee in a park. The park is lush with green trees and grass, providing a serene backdrop to the activity. \n\nIn the center of the image, a group of people are actively participating in the game. Some are standing,",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "frisbee",
+    "person"
+   ],
+   "gt": [
+    "frisbee",
+    "person"
+   ]
+  },
+  {
+   "image_id": 14321,
+   "caption": "The image captures a vibrant scene from a street fair. The main focus is a group of motorcycles, parked in a neat row on the cobblestone street. The motorcycles, each unique in design, are parked in a line, creating a sense of order and symmetry. \n\nThe street is bustling with activity. People are",
+   "hallucinated": [],
+   "generated": [
+    "motorcycle",
+    "motorcycle",
+    "person"
+   ],
+   "gt": [
+    "handbag",
+    "motorcycle",
+    "person"
+   ]
+  },
+  {
+   "image_id": 10928,
+   "caption": "The image captures a bustling city street, bathed in the soft glow of daylight. The street, lined with towering buildings, is a hive of activity. A blue and white street sign, a common sight in many cities, stands prominently on the left side of the image. It bears the words \"Madison Ave\"",
+   "hallucinated": [
+    "bear"
+   ],
+   "generated": [
+    "bear"
+   ],
+   "gt": [
+    "traffic light"
+   ]
+  },
+  {
+   "image_id": 256973,
+   "caption": "The image captures a cozy scene of a coffee table, bathed in the soft glow of a wooden table. The table, a canvas of nature, is adorned with a white coffee mug, its contents a mystery. The mug, a silent observer of the world around it, is nestled within a white saucer, its",
+   "hallucinated": [],
+   "generated": [
+    "dining table",
+    "dining table",
+    "dining table"
+   ],
+   "gt": [
+    "book",
+    "cup",
+    "dining table",
+    "donut"
+   ]
+  },
+  {
+   "image_id": 542487,
+   "caption": "In the center of the image, a gray tabby cat with a white chest and black stripes is the main subject. The cat is facing towards the right side of the image, its gaze directed towards the left. The cat's fur is a mix of gray and white, with black stripes running down its back.",
+   "hallucinated": [],
+   "generated": [
+    "cat",
+    "cat",
+    "cat",
+    "cat"
+   ],
+   "gt": [
+    "cat",
+    "dining table",
+    "vase"
+   ]
+  },
+  {
+   "image_id": 473994,
+   "caption": "In the heart of a verdant field, a lively scene unfolds. A light brown dog, adorned with a blue collar, is the star of the show. The dog, with its tongue out, is caught in the act of catching a frisbee. The frisbee, a vibrant shade of red, is",
+   "hallucinated": [],
+   "generated": [
+    "dog",
+    "dog",
+    "frisbee",
+    "frisbee"
+   ],
+   "gt": [
+    "dog",
+    "frisbee",
+    "person"
+   ]
+  },
+  {
+   "image_id": 51157,
+   "caption": "In the image, a man is seen walking along the shore of a beach. He is dressed in a black wetsuit, which contrasts with the white sand beneath him. In his hands, he holds a surfboard, which is a striking shade of blue. The surfboard is not just any ordinary board, it",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "surfboard",
+    "surfboard"
+   ],
+   "gt": [
+    "person",
+    "surfboard"
+   ]
+  },
+  {
+   "image_id": 462756,
+   "caption": "The image captures a serene scene of a small, rustic farm. Dominating the foreground is a **gray ** motorcycle, parked on a **dirt road**. The motorcycle, with its **black seat and handlebars**, is facing towards the right side of the image, as if ready to embark on a journey.",
+   "hallucinated": [
+    "chair"
+   ],
+   "generated": [
+    "motorcycle",
+    "motorcycle",
+    "chair"
+   ],
+   "gt": [
+    "bicycle",
+    "car",
+    "motorcycle",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 268390,
+   "caption": "The image captures a scene of a kitchen, bathed in the soft glow of a light source. Dominating the center of the image is a white coffee maker, its black handle contrasting with the white body. The coffee maker is not alone; it's accompanied by a black coffee grinder, a white coffee cup, and",
+   "hallucinated": [],
+   "generated": [
+    "cup"
+   ],
+   "gt": [
+    "cup",
+    "dining table",
+    "remote",
+    "sink"
+   ]
+  },
+  {
+   "image_id": 96762,
+   "caption": "In the heart of a bustling city, a person stands on a sidewalk, their back to us. They are clad in a vibrant red coat, which contrasts beautifully with the muted tones of the city around them. A pink umbrella, held aloft, shields them from the rain, adding a touch of color to the scene",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "umbrella"
+   ],
+   "gt": [
+    "car",
+    "fire hydrant",
+    "handbag",
+    "person",
+    "traffic light",
+    "umbrella"
+   ]
+  },
+  {
+   "image_id": 115749,
+   "caption": "In the heart of a dry savanna, a family of elephants, their skin a mix of brown and gray, stands in a line. The largest elephant, a majestic creature of a grayish-brown hue, leads the way. Its trunk, a symbol of strength and wisdom, is extended towards the younger elephants.",
+   "hallucinated": [],
+   "generated": [
+    "elephant",
+    "elephant",
+    "elephant"
+   ],
+   "gt": [
+    "elephant"
+   ]
+  },
+  {
+   "image_id": 340047,
+   "caption": "In the image, a woman is the central figure, standing on a sandy beach. She is holding a pink umbrella, which is open and facing towards the left side of the image. The umbrella is adorned with a white and red design, adding a pop of color to the scene. The woman is dressed in a pink",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "umbrella",
+    "umbrella",
+    "person"
+   ],
+   "gt": [
+    "backpack",
+    "bench",
+    "bus",
+    "cup",
+    "person",
+    "umbrella"
+   ]
+  },
+  {
+   "image_id": 563730,
+   "caption": "The image presents a close-up view of a green plastic fork, which is resting on a white surface. The fork is positioned in the center of the image, with the handle facing upwards. The fork is adorned with a silver fork handle, which contrasts with the green of the plastic. The fork is not alone; it",
+   "hallucinated": [],
+   "generated": [
+    "fork",
+    "fork",
+    "fork",
+    "fork",
+    "fork"
+   ],
+   "gt": [
+    "dining table",
+    "fork",
+    "orange",
+    "spoon"
+   ]
+  },
+  {
+   "image_id": 405534,
+   "caption": "In the image, there are three young children engrossed in a game of tennis. The child on the left, clad in a vibrant red shirt, is holding a tennis racket with both hands. The child on the right, wearing a green shirt, is also holding a tennis racket, but it's not in use",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person",
+    "tennis racket",
+    "person",
+    "tennis racket"
+   ],
+   "gt": [
+    "person",
+    "tennis racket"
+   ]
+  },
+  {
+   "image_id": 506614,
+   "caption": "The image captures a serene bedroom bathed in soft light. Dominating the scene is a large bed, dressed in a pristine white comforter that contrasts beautifully with the bed's wooden headboard. The headboard, made of dark wood, adds a touch of elegance to the room.\n\nThe bed is flanked by two",
+   "hallucinated": [],
+   "generated": [
+    "bed",
+    "bed",
+    "bed"
+   ],
+   "gt": [
+    "bed",
+    "book",
+    "chair",
+    "clock",
+    "couch"
+   ]
+  },
+  {
+   "image_id": 38438,
+   "caption": "In the center of the image, a Siamese cat is the main subject. The cat, with its fur in shades of gray and white, is lying on a vibrant red carpet. Its eyes are wide open, and its mouth is slightly open, giving it a curious expression. The cat's tail is curled up",
+   "hallucinated": [],
+   "generated": [
+    "cat",
+    "cat",
+    "cat"
+   ],
+   "gt": [
+    "cat",
+    "handbag"
+   ]
+  },
+  {
+   "image_id": 312103,
+   "caption": "In the heart of a bustling street, a man in a vibrant red tank top and black shorts is the center of attention. He's holding a large, golden hot dog in his right hand, which is the main focus of the image. The hot dog is generously topped with a generous amount of ketchup, adding a",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "hot dog",
+    "hot dog"
+   ],
+   "gt": [
+    "car",
+    "handbag",
+    "hot dog",
+    "person",
+    "pizza",
+    "sandwich",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 435922,
+   "caption": "In the image, a gray and white cat is the main subject. The cat is sitting on a wooden table, its body facing towards the right side of the image. The table is covered with a white cloth, and a few objects are scattered around it. A black and white book lies on the table, and a",
+   "hallucinated": [],
+   "generated": [
+    "cat",
+    "cat",
+    "dining table",
+    "dining table",
+    "book",
+    "dining table"
+   ],
+   "gt": [
+    "book",
+    "cat",
+    "dining table",
+    "remote"
+   ]
+  },
+  {
+   "image_id": 540502,
+   "caption": "The image captures a modern kitchen bathed in a soothing palette of green and white. Dominating the scene is a sleek, white countertop that houses a stainless steel refrigerator and a black stove. The countertop is accented with a vibrant green backsplash, adding a pop of color to the otherwise monochrome setting.",
+   "hallucinated": [],
+   "generated": [
+    "refrigerator",
+    "oven"
+   ],
+   "gt": [
+    "apple",
+    "bowl",
+    "chair",
+    "dining table",
+    "microwave",
+    "orange",
+    "oven",
+    "potted plant",
+    "refrigerator",
+    "sink",
+    "spoon",
+    "toaster",
+    "vase"
+   ]
+  },
+  {
+   "image_id": 439854,
+   "caption": "The image captures a vibrant scene at a beach during sunset. The sky, painted in hues of orange and pink, is dotted with clouds. The sun, casting a warm glow on the scene, is positioned in the top left corner of the image. \n\nIn the foreground, a person is seen riding a skateboard, their",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "orange",
+    "person",
+    "skateboard"
+   ],
+   "gt": [
+    "backpack",
+    "bicycle",
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 518163,
+   "caption": "In the image, a group of four people are standing in front of a red car. The car is parked on a street, and it's positioned in the center of the image. The people are dressed in casual attire, with two of them wearing sunglasses and the other two wearing a purple shirt and a blue shirt.",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "car",
+    "car",
+    "person"
+   ],
+   "gt": [
+    "backpack",
+    "book",
+    "car",
+    "handbag",
+    "person",
+    "potted plant",
+    "suitcase"
+   ]
+  },
+  {
+   "image_id": 27935,
+   "caption": "The image captures a vibrant scene of a flower shop. Dominating the foreground is a large white bucket, its surface adorned with a variety of flowers in shades of yellow, orange, and red. The bucket is positioned on a wooden table, which is set against a backdrop of a window adorned with white curtains. The window",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "orange",
+    "dining table"
+   ],
+   "gt": [
+    "dining table",
+    "potted plant",
+    "vase"
+   ]
+  },
+  {
+   "image_id": 208808,
+   "caption": "In the heart of a bustling skatepark, a young man is caught in a moment of pure exhilaration. He's clad in a vibrant orange jacket, which contrasts beautifully with his blue jeans and black shoes. His skateboard, a striking combination of white and black, is in mid-air, defying gravity as he so",
+   "hallucinated": [
+    "orange"
+   ],
+   "generated": [
+    "person",
+    "orange",
+    "skateboard"
+   ],
+   "gt": [
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 113678,
+   "caption": "The image presents a charming scene of two dogs, one wearing a red hat and the other a white and black dog, both adorned with a black collar. The dogs are seated on a beige carpet, their bodies facing the camera, creating a sense of connection with the viewer. The background is a simple beige wall, punct",
+   "hallucinated": [],
+   "generated": [
+    "dog",
+    "dog",
+    "dog"
+   ],
+   "gt": [
+    "dog",
+    "person"
+   ]
+  },
+  {
+   "image_id": 292188,
+   "caption": "The image captures a dynamic scene of a man and his dog on a John Deere 4x4. The man, dressed in a blue shirt and a blue helmet, is in the driver's seat of the John Deere 4x4. The dog, a black and white mix, is perched on",
+   "hallucinated": [
+    "chair"
+   ],
+   "generated": [
+    "person",
+    "dog",
+    "person",
+    "person",
+    "chair",
+    "dog"
+   ],
+   "gt": [
+    "car",
+    "dog",
+    "person",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 465552,
+   "caption": "The image captures a delightful meal setting. At the center of the frame is a blue plate, which holds a serving of spaghetti and broccoli. The spaghetti, with its vibrant red sauce, is the star of the dish. It's garnished with a sprinkle of green herbs, adding a pop of color to the dish.",
+   "hallucinated": [],
+   "generated": [
+    "broccoli"
+   ],
+   "gt": [
+    "broccoli",
+    "cup",
+    "dining table",
+    "fork"
+   ]
+  },
+  {
+   "image_id": 331223,
+   "caption": "The image captures a scene of urban development. Dominating the foreground is a red and yellow fire hydrant, standing tall against the backdrop of a concrete building. The hydrant, with its vibrant colors, is the main focus of the image. \n\nIn the background, a yellow caution tape is visible, adding a layer",
+   "hallucinated": [],
+   "generated": [
+    "fire hydrant",
+    "fire hydrant"
+   ],
+   "gt": [
+    "fire hydrant",
+    "orange",
+    "sandwich"
+   ]
+  },
+  {
+   "image_id": 557595,
+   "caption": "In the image, a man is the central figure, standing on a street corner. He is dressed in a blue shirt and jeans, and is holding a skateboard in his hand. The skateboard is adorned with a colorful design, adding a vibrant touch to its appearance. \n\nThe man is positioned in front of a white bus",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "skateboard",
+    "skateboard",
+    "person"
+   ],
+   "gt": [
+    "handbag",
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 532963,
+   "caption": "The image captures a vibrant outdoor dining scene. At the center of the frame is a table draped in a pristine white tablecloth, upon which rests a variety of dishes and drinks. The table is set against a backdrop of lush greenery, with trees and bushes adding a touch of nature to the setting.\n\nThe table is",
+   "hallucinated": [],
+   "generated": [
+    "dining table",
+    "dining table",
+    "dining table"
+   ],
+   "gt": [
+    "bowl",
+    "chair",
+    "cup",
+    "dining table",
+    "handbag",
+    "sandwich",
+    "wine glass"
+   ]
+  },
+  {
+   "image_id": 435937,
+   "caption": "In this black and white photograph, a man is seen riding a bicycle down a cobblestone street. He is dressed in a jacket and pants, and is wearing a hat. The street is lined with a row of benches, and there are buildings in the background. The man is in the center of the frame,",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "bicycle",
+    "bench",
+    "person"
+   ],
+   "gt": [
+    "bench",
+    "bicycle",
+    "chair",
+    "dining table",
+    "handbag",
+    "person"
+   ]
+  },
+  {
+   "image_id": 550643,
+   "caption": "The image captures a moment of culinary preparation. A stainless steel pot, with a handle on the left side, is filled with a vibrant green salad. The salad is a mix of green and yellow vegetables, including broccoli and carrots. The pot is placed on a white countertop, which contrasts with the green of the salad",
+   "hallucinated": [
+    "carrot"
+   ],
+   "generated": [
+    "broccoli",
+    "carrot"
+   ],
+   "gt": [
+    "bowl",
+    "broccoli",
+    "cup",
+    "oven",
+    "spoon"
+   ]
+  },
+  {
+   "image_id": 500703,
+   "caption": "The image captures a bustling scene at a train station. The station is a hive of activity, with multiple trains parked on the tracks. The trains, painted in a variety of colors, are a mix of white, blue, and red, adding a splash of color to the otherwise gray and brown landscape.\n\nThe train tracks",
+   "hallucinated": [],
+   "generated": [
+    "train",
+    "train",
+    "train"
+   ],
+   "gt": [
+    "handbag",
+    "person",
+    "train"
+   ]
+  },
+  {
+   "image_id": 494182,
+   "caption": "In the heart of a verdant park, a brown horse and a white horse are captured in a moment of tranquility. The horse, with its coat of brown and white, stands on the left side of the image, its gaze directed towards the right. Its tail, a light brown color, is slightly raised,",
+   "hallucinated": [],
+   "generated": [
+    "horse",
+    "horse",
+    "horse"
+   ],
+   "gt": [
+    "horse"
+   ]
+  },
+  {
+   "image_id": 418854,
+   "caption": "The image presents a serene and well-organized bathroom. Dominating the scene is a white toilet, positioned centrally. It's flanked by two white sinks, each adorned with a white faucet. The sink on the left is equipped with a white soap dispenser, while the one on the right features a white towel rack.",
+   "hallucinated": [],
+   "generated": [
+    "toilet",
+    "sink",
+    "sink"
+   ],
+   "gt": [
+    "bottle",
+    "sink",
+    "toilet",
+    "toothbrush"
+   ]
+  },
+  {
+   "image_id": 542782,
+   "caption": "The image captures a moment of joy and camaraderie on a snowy mountain. At the center of the frame, a group of people are enjoying a day of winter sports. They are seated on a chair, their bodies relaxed and their heads bowed in concentration. The chair they're sitting on is adorned with a vibrant red",
+   "hallucinated": [
+    "chair",
+    "chair"
+   ],
+   "generated": [
+    "person",
+    "chair",
+    "chair"
+   ],
+   "gt": [
+    "cell phone",
+    "person",
+    "skis",
+    "snowboard"
+   ]
+  },
+  {
+   "image_id": 298137,
+   "caption": "The image captures a moment of a large, white airplane soaring through a cloudy sky. The airplane, with its wings spread wide, is the central focus of the image. It's positioned in the center of the frame, with the tail of the airplane slightly angled to the left. The airplane is moving towards the right side",
+   "hallucinated": [],
+   "generated": [
+    "airplane",
+    "airplane",
+    "airplane",
+    "airplane"
+   ],
+   "gt": [
+    "airplane"
+   ]
+  },
+  {
+   "image_id": 418219,
+   "caption": "In the image, a man is seen walking down a sidewalk in a city. He is dressed in a red jacket and blue jeans, and is carrying a black backpack. The man is facing the camera, and his path is not clear from the image. \n\nThe sidewalk he is walking on is lined with trees and buildings",
+   "hallucinated": [
+    "backpack"
+   ],
+   "generated": [
+    "person",
+    "backpack",
+    "person"
+   ],
+   "gt": [
+    "bench",
+    "car",
+    "person"
+   ]
+  },
+  {
+   "image_id": 536158,
+   "caption": "In the image, a man is seen kayaking on a river. He is wearing a red life jacket and a white helmet, which is a striking contrast against the blue of the water. The man is holding a black paddle, which is in motion, creating a spray of water behind him. The river is a deep",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "person"
+   ],
+   "gt": [
+    "boat",
+    "person"
+   ]
+  },
+  {
+   "image_id": 352234,
+   "caption": "The image captures a moment of culinary delight. At the center of the frame, a slice of pizza rests on a white plate, its golden crust and melted cheese creating a tantalizing contrast. The pizza is generously topped with a vibrant red sauce, its glossy surface reflecting the light. \n\nTo the right of the pizza,",
+   "hallucinated": [],
+   "generated": [
+    "pizza",
+    "pizza",
+    "pizza"
+   ],
+   "gt": [
+    "fork",
+    "person",
+    "pizza"
+   ]
+  },
+  {
+   "image_id": 140231,
+   "caption": "The image captures a scene of a modern office, dominated by a large glass table that serves as the centerpiece. The table is adorned with a variety of objects, each contributing to the overall aesthetic of the space. \n\nOn the left side of the table, a black and silver laptop is open, its screen reflecting the light",
+   "hallucinated": [],
+   "generated": [
+    "dining table",
+    "dining table",
+    "dining table",
+    "laptop"
+   ],
+   "gt": [
+    "book",
+    "cell phone",
+    "dining table",
+    "keyboard",
+    "laptop",
+    "remote"
+   ]
+  },
+  {
+   "image_id": 270556,
+   "caption": "The image captures a panoramic view of the city of Edinburgh, Scotland. The perspective is from a high vantage point, providing a comprehensive view of the city's architecture and landscape. The city is dominated by a large, historic castle, its imposing structure standing out against the backdrop of the cityscape. The castle is nestled",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "bus",
+    "car",
+    "clock",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 338041,
+   "caption": "In the heart of a vibrant park, a young man is caught in a moment of pure exhilaration. He's dressed in a casual yet stylish outfit of a white t-shirt and blue jeans, his feet firmly planted on a skateboard. His body is angled towards the right side of the image, as if caught mid-air",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "skateboard"
+   ],
+   "gt": [
+    "bench",
+    "person",
+    "skateboard"
+   ]
+  },
+  {
+   "image_id": 403619,
+   "caption": "In the image, a person's hand is seen holding a silver laptop computer. The laptop is open, and the screen is displaying a colorful image. The person's hand is positioned in front of the laptop, and their fingers are gently touching the keys of the keyboard. The laptop is placed on a table, and a",
+   "hallucinated": [],
+   "generated": [
+    "person",
+    "laptop",
+    "laptop",
+    "person",
+    "laptop",
+    "keyboard",
+    "laptop",
+    "dining table"
+   ],
+   "gt": [
+    "cell phone",
+    "dining table",
+    "keyboard",
+    "laptop",
+    "person"
+   ]
+  },
+  {
+   "image_id": 202622,
+   "caption": "The image captures a moment of tranquility, featuring a large, ornate clock tower standing tall against a backdrop of a clear blue sky. The tower, constructed from a combination of brick and stone, is adorned with intricate carvings and a red roof, adding a touch of elegance to its structure. \n\nThe clock",
+   "hallucinated": [],
+   "generated": [
+    "clock",
+    "clock"
+   ],
+   "gt": [
+    "clock"
+   ]
+  },
+  {
+   "image_id": 189203,
+   "caption": "The image captures a moment of a blue and white airplane soaring through the sky. The airplane, with its wings spread wide, is the central focus of the image. It's positioned in the center of the frame, with the tail of the airplane slightly angled to the left. The airplane is flying over a vast expanse",
+   "hallucinated": [],
+   "generated": [
+    "airplane",
+    "airplane",
+    "airplane",
+    "airplane"
+   ],
+   "gt": [
+    "airplane",
+    "person"
+   ]
+  },
+  {
+   "image_id": 246248,
+   "caption": "The image captures a serene street scene in a European town. The street, lined with trees and buildings, is a two-lane road. The road is flanked by buildings on both sides, their architecture hinting at a rich history. \n\nOn the left side of the road, a red and white street sign stands",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "car",
+    "stop sign",
+    "traffic light",
+    "truck"
+   ]
+  },
+  {
+   "image_id": 475484,
+   "caption": "The image captures a vibrant scene on a street in Miami, Florida. Dominating the foreground is a yellow and white \"End Homeless\" sign, proudly displaying the city's commitment to ending homelessness. The sign is affixed to a sturdy black pole, standing tall against the backdrop of a clear blue sky dotted with fluffy",
+   "hallucinated": [],
+   "generated": [],
+   "gt": [
+    "car",
+    "parking meter",
+    "person",
+    "traffic light"
+   ]
+  },
+  {
+   "image_id": 426852,
+   "caption": "The image captures a serene garden scene. Dominating the foreground is a large, blue vase, its surface adorned with a white floral design. The vase is positioned on a stone ledge, which is flanked by a row of small, dark-colored pots. These pots, also blue, are arranged in a semi-circle around",
+   "hallucinated": [],
+   "generated": [
+    "vase",
+    "vase"
+   ],
+   "gt": [
+    "vase"
+   ]
+  },
+  {
+   "image_id": 278032,
+   "caption": "The image captures a moment at a train station, where a red and white train is stationed on the tracks. The train, with its vibrant colors, is the main focus of the image. It's positioned on the right side of the frame, facing towards the left. The train is equipped with a set of wheels,",
+   "hallucinated": [],
+   "generated": [
+    "train",
+    "train",
+    "train",
+    "train"
+   ],
+   "gt": [
+    "train"
+   ]
+  }
+ ]
+}
